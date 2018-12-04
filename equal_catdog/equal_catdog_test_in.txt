@@ -1,0 +1,3 @@
+data/equal_catdog/test/catdog_test_1.jpg
+data/equal_catdog/test/catdog_test_2.jpg
+data/equal_catdog/test/catdog_test_3.jpg

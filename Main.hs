@@ -7,6 +7,9 @@ import Evaluator
 import Classifier
 import IOinterface
 
+import Trainmodels
+import Testmodels
+
 import Data.Dynamic
 import Data.Maybe
 import Data.List as List
@@ -27,9 +30,18 @@ model_2 = Map.fromList (count_model_2 ++ label_model_2)
 
 -------------------------------------------------------------------------
 
+num_vars = 1
+cost = 5
 
+trainmodels = map makemodel train_models
+testmodels = map makemodel test_models
+uniformmodels = makeuniform (trainmodels ++ testmodels)
+uniform_trainmodels = take (length trainmodels) uniformmodels
+uniform_testmodels = drop (length trainmodels) uniformmodels
 
-main = putStrLn "Done"
+solution = solve cost num_vars uniform_trainmodels uniform_testmodels
+
+main = putStrLn (foldr (\formula str-> str ++ (show formula)++ "\n") "\n" solution)
 
 
 

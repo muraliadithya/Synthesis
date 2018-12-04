@@ -1,0 +1,4 @@
+data/equal_catdog/train/catdog_train_1.jpg
+data/equal_catdog/train/catdog_train_2.jpg
+data/equal_catdog/train/catdog_train_3.jpg
+data/equal_catdog/train/catdog_train_4.jpg

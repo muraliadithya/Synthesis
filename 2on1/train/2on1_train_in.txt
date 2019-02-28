@@ -1,0 +1,3 @@
+data/2on1/train/2on1_train_1.jpg
+data/2on1/train/2on1_train_2.jpg
+data/2on1/train/2on1_train_3.jpg

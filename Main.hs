@@ -30,7 +30,7 @@ model_2 = Map.fromList (count_model_2 ++ label_model_2)
 
 -------------------------------------------------------------------------
 
-num_vars = 1
+num_vars = 0
 cost = 5
 
 trainmodels = map makemodel train_models

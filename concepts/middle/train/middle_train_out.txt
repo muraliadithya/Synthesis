@@ -1,0 +1,26 @@
+Enter Image Path: data/concepts/middle/train/middle_train_1.jpg: Predicted in 81.253211 seconds.
+dog: 94%
+Bounding Box: Left=1362, Top=247, Right=2664, Bottom=2431
+cat: 98%
+Bounding Box: Left=2678, Top=191, Right=4062, Bottom=2457
+cat: 57%
+Bounding Box: Left=40, Top=147, Right=1197, Bottom=2449
+Enter Image Path: data/concepts/middle/train/middle_train_2.jpg: Predicted in 82.650128 seconds.
+umbrella: 100%
+Bounding Box: Left=450, Top=305, Right=574, Bottom=390
+car: 100%
+Bounding Box: Left=576, Top=311, Right=995, Bottom=600
+car: 99%
+Bounding Box: Left=8, Top=351, Right=419, Bottom=590
+person: 100%
+Bounding Box: Left=464, Top=379, Right=555, Bottom=565
+Enter Image Path: data/concepts/middle/train/middle_train_3.jpg: Predicted in 42.193531 seconds.
+vase: 58%
+Bounding Box: Left=119, Top=39, Right=145, Bottom=66
+pottedplant: 85%
+Bounding Box: Left=117, Top=19, Right=146, Bottom=66
+chair: 100%
+Bounding Box: Left=179, Top=55, Right=264, Bottom=157
+chair: 92%
+Bounding Box: Left=6, Top=56, Right=107, Bottom=166
+Enter Image Path: 

@@ -1,13 +1,7 @@
-Enter Image Path: data/Synthesis/concepts/tvoff/tvoff_train_1.jpg: Predicted in 53.572133 seconds.
-vase: 98%
-Bounding Box: Left=965, Top=663, Right=1040, Bottom=776
-clock: 66%
-Bounding Box: Left=817, Top=0, Right=933, Bottom=31
-remote: 74%
-Bounding Box: Left=1012, Top=779, Right=1064, Bottom=817
+Enter Image Path: data/Synthesis/concepts/tvoff/tvoff_train_1.jpg: Predicted in 50.804059 seconds.
 tvmonitor: 100%
-Bounding Box: Left=444, Top=215, Right=877, Bottom=498
-Enter Image Path: data/Synthesis/concepts/tvoff/tvoff_train_2.jpg: Predicted in 61.477289 seconds.
+Bounding Box: Left=522, Top=205, Right=2342, Bottom=1790
+Enter Image Path: data/Synthesis/concepts/tvoff/tvoff_train_2.jpg: Predicted in 54.180235 seconds.
 book: 69%
 Bounding Box: Left=612, Top=332, Right=625, Bottom=383
 book: 68%
@@ -28,7 +22,7 @@ tvmonitor: 90%
 Bounding Box: Left=202, Top=125, Right=455, Bottom=264
 chair: 94%
 Bounding Box: Left=0, Top=363, Right=222, Bottom=553
-Enter Image Path: data/Synthesis/concepts/tvoff/tvoff_train_3.jpg: Predicted in 31.988098 seconds.
+Enter Image Path: data/Synthesis/concepts/tvoff/tvoff_train_3.jpg: Predicted in 32.357964 seconds.
 book: 57%
 Bounding Box: Left=630, Top=750, Right=713, Bottom=773
 book: 57%

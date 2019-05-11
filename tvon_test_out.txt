@@ -1,9 +1,0 @@
-Enter Image Path: data/concepts/tvon/test/tvon_test_1.jpg: Predicted in 72.652770 seconds.
-tvmonitor: 99%
-Bounding Box: Left=233, Top=107, Right=1662, Bottom=1146
-person: 92%
-Bounding Box: Left=646, Top=202, Right=1428, Bottom=1031
-Enter Image Path: data/concepts/tvon/test/tvon_test_2.jpg: Predicted in 82.955942 seconds.
-tvmonitor: 100%
-Bounding Box: Left=522, Top=205, Right=2342, Bottom=1790
-Enter Image Path: 

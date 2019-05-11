@@ -1,0 +1,33 @@
+Enter Image Path: data/concepts/middle/test/middle_test_1.jpg: Predicted in 71.871044 seconds.
+car: 100%
+Bounding Box: Left=95, Top=619, Right=453, Bottom=844
+car: 100%
+Bounding Box: Left=678, Top=586, Right=948, Bottom=845
+car: 99%
+Bounding Box: Left=1148, Top=612, Right=1478, Bottom=850
+Enter Image Path: data/concepts/middle/test/middle_test_2.jpg: Predicted in 64.338548 seconds.
+dog: 100%
+Bounding Box: Left=118, Top=401, Right=340, Bottom=554
+person: 100%
+Bounding Box: Left=687, Top=55, Right=945, Bottom=580
+person: 100%
+Bounding Box: Left=387, Top=107, Right=672, Bottom=555
+Enter Image Path: data/concepts/middle/test/middle_test_3.jpg: Predicted in 37.370887 seconds.
+vase: 90%
+Bounding Box: Left=219, Top=151, Right=249, Bottom=200
+vase: 60%
+Bounding Box: Left=56, Top=120, Right=78, Bottom=137
+pottedplant: 70%
+Bounding Box: Left=38, Top=92, Right=88, Bottom=132
+chair: 99%
+Bounding Box: Left=359, Top=133, Right=447, Bottom=274
+chair: 95%
+Bounding Box: Left=3, Top=139, Right=133, Bottom=289
+Enter Image Path: data/concepts/middle/test/middle_test_4.jpg: Predicted in 34.673445 seconds.
+dog: 100%
+Bounding Box: Left=394, Top=27, Right=694, Bottom=215
+dog: 99%
+Bounding Box: Left=160, Top=15, Right=374, Bottom=287
+cat: 95%
+Bounding Box: Left=736, Top=44, Right=926, Bottom=222
+Enter Image Path: 

@@ -1,3 +1,3 @@
-data/concepts/middle/train/middle_train_1.jpg
-data/concepts/middle/train/middle_train_2.jpg
-data/concepts/middle/train/middle_train_3.jpg
+data/Synthesis/concepts/middle/middle_train_1.jpg
+data/Synthesis/concept/middle/middle_train_2.jpg
+data/Synthesis/concepts/middle/middle_train_3.jpg

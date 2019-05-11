@@ -1,3 +1,3 @@
-data/pair/test/pair_test_1.jpg
-data/pair/test/pair_test_2.jpg
-data/pair/test/pair_test_3.jpg
+data/Synthesis/pair/pair_test_1.jpg
+data/Synthesis/pair/pair_test_2.jpg
+data/Synthesis/pair/pair_test_3.jpg

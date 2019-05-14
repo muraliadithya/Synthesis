@@ -20,7 +20,6 @@ Bounding Box: Left=0, Top=87, Right=799, Bottom=531
 cat: 100%
 Bounding Box: Left=38, Top=135, Right=397, Bottom=429
 Enter Image Path: data/Synthesis/concepts/2on1/2on1_test_4.jpg: Predicted in 63.258432 seconds.
-chair: 86%
 sofa: 56%
 Bounding Box: Left=975, Top=209, Right=1682, Bottom=577
 chair: 87%

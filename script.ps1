@@ -1,9 +1,21 @@
 
-$trainfile = $args[0]
-$testfile = $args[1]
+$instance = $args[0]
+$trainfile = "./concepts/"+ $instance + "/" + $instance + "_train_out.txt"
+$testfile = "./concepts/"+ $instance + "/" + $instance + "_test_out.txt"
 
-py script.py $trainfile $testfile
+$num_vars = $args[1]
+$num_rels = $args[2]
 
-ghc Main
+if($args[3] -eq $null)
+{$if_existential = 'no'}
+else
+{$if_existential = $args[3]}
 
-./Main
+if($args[4] -eq $null)
+{$if_conjuncts = 'no'}
+else
+{$if_conjuncts = $args[4]}
+
+
+py main.py $trainfile $testfile $num_vars $num_rels $if_existential $if_conjuncts > smt_in.smt2
+

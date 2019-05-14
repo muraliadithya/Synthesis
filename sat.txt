@@ -1,0 +1,208 @@
+sat
+(model 
+  (define-fun x1!15 () Obj
+    s1_o2)
+  (define-fun x2!13 () Obj
+    s2_o1)
+  (define-fun x2!16 () Obj
+    s1_o3)
+  (define-fun x1!1 () Obj
+    t3_o2)
+  (define-fun x2!8 () Obj
+    s3_o2)
+  (define-fun q1 () Quantifier
+    all)
+  (define-fun x2!5 () Obj
+    s3_o2)
+  (define-fun arg1_2 () Binding
+    bind_dog)
+  (define-fun arg2_2 () Binding
+    bind_x2)
+  (define-fun arg1_1 () Binding
+    bind_x1)
+  (define-fun r2 () Rels
+    toRight)
+  (define-fun x1!4 () Obj
+    s3_o2)
+  (define-fun op1 () Ops
+    opimpl)
+  (define-fun n1 () IfNeg
+    no)
+  (define-fun n2 () IfNeg
+    no)
+  (define-fun x2!2 () Obj
+    umbrella)
+  (define-fun q2 () Quantifier
+    one)
+  (define-fun x1!7 () Obj
+    s3_o2)
+  (define-fun arg2_1 () Binding
+    bind_x1)
+  (define-fun x1!10 () Obj
+    t1_o4)
+  (define-fun x2!11 () Obj
+    umbrella)
+  (define-fun x1!12 () Obj
+    s2_o2)
+  (define-fun r1 () Rels
+    labelOf)
+  (define-fun x2!6!320 ((x!0 Obj)) Obj
+    (ite (= x!0 t1_o4) t1_o3
+    (ite (= x!0 t1_o2) t1_o5
+      t1_o4)))
+  (define-fun k!314 ((x!0 Obj)) Obj
+    (ite (= x!0 t1_o1) t1_o1
+    (ite (= x!0 t3_o3) t3_o3
+    (ite (= x!0 dog) dog
+    (ite (= x!0 umbrella) umbrella
+    (ite (= x!0 s3_o1) s3_o1
+    (ite (= x!0 t2_o1) t2_o1
+    (ite (= x!0 t1_o4) t1_o4
+    (ite (= x!0 s1_o2) s1_o2
+    (ite (= x!0 cat) cat
+    (ite (= x!0 nullobj) nullobj
+    (ite (= x!0 s3_o3) s3_o3
+    (ite (= x!0 t3_o4) t3_o4
+    (ite (= x!0 t2_o3) t2_o3
+    (ite (= x!0 t2_o4) t2_o4
+    (ite (= x!0 s1_o3) s1_o3
+    (ite (= x!0 t3_o2) t3_o2
+    (ite (= x!0 t2_o2) t2_o2
+    (ite (= x!0 s2_o3) s2_o3
+    (ite (= x!0 car) car
+    (ite (= x!0 s2_o2) s2_o2
+    (ite (= x!0 t3_o1) t3_o1
+    (ite (= x!0 s1_o1) s1_o1
+    (ite (= x!0 t1_o2) t1_o2
+    (ite (= x!0 t1_o5) t1_o5
+    (ite (= x!0 chair) chair
+    (ite (= x!0 vase) vase
+    (ite (= x!0 pottedplant) pottedplant
+    (ite (= x!0 person) person
+    (ite (= x!0 s2_o1) s2_o1
+    (ite (= x!0 s3_o2) s3_o2
+      t1_o3)))))))))))))))))))))))))))))))
+  (define-fun x2!0!322 ((x!0 Obj)) Obj
+    (ite (= x!0 t2_o1) t2_o2
+    (ite (= x!0 t2_o4) t2_o4
+      t2_o1)))
+  (define-fun x2!0 ((x!0 Obj)) Obj
+    (x2!0!322 (k!314 x!0)))
+  (define-fun x2!3!323 ((x!0 Obj)) Obj
+    (ite (= x!0 t3_o4) t3_o4
+    (ite (= x!0 t3_o3) t3_o3
+      t3_o2)))
+  (define-fun x2!9!321 ((x!0 Obj)) Obj
+    (ite (= x!0 s3_o2) s3_o3
+      s3_o2))
+  (define-fun k!317 ((x!0 Obj)) Obj
+    (ite (= x!0 t1_o1) t1_o1
+    (ite (= x!0 t3_o3) t3_o3
+    (ite (= x!0 dog) dog
+    (ite (= x!0 umbrella) umbrella
+    (ite (= x!0 s3_o1) s3_o1
+    (ite (= x!0 t2_o1) t2_o1
+    (ite (= x!0 t1_o4) t1_o4
+    (ite (= x!0 s1_o2) s1_o2
+    (ite (= x!0 cat) cat
+    (ite (= x!0 nullobj) nullobj
+    (ite (= x!0 s3_o3) s3_o3
+    (ite (= x!0 t3_o4) t3_o4
+    (ite (= x!0 t2_o3) t2_o3
+    (ite (= x!0 t2_o4) t2_o4
+    (ite (= x!0 s1_o3) s1_o3
+    (ite (= x!0 t3_o2) t3_o2
+    (ite (= x!0 t2_o2) t2_o2
+    (ite (= x!0 s2_o3) s2_o3
+    (ite (= x!0 car) car
+    (ite (= x!0 s2_o2) s2_o2
+    (ite (= x!0 t3_o1) t3_o1
+    (ite (= x!0 s1_o1) s1_o1
+    (ite (= x!0 t1_o2) t1_o2
+    (ite (= x!0 t1_o5) t1_o5
+    (ite (= x!0 chair) chair
+    (ite (= x!0 vase) vase
+    (ite (= x!0 pottedplant) pottedplant
+    (ite (= x!0 person) person
+    (ite (= x!0 s2_o1) s2_o1
+    (ite (= x!0 s3_o2) s3_o2
+      t1_o3)))))))))))))))))))))))))))))))
+  (define-fun x2!9 ((x!0 Obj)) Obj
+    (x2!9!321 (k!317 x!0)))
+  (define-fun x2!17 ((x!0 Obj)) Obj
+    (ite (= x!0 s1_o2) s1_o3
+    (ite (= x!0 s1_o1) t3_o3
+      person)))
+  (define-fun k!315 ((x!0 Obj)) Obj
+    (ite (= x!0 t1_o1) t1_o1
+    (ite (= x!0 t3_o3) t3_o3
+    (ite (= x!0 dog) dog
+    (ite (= x!0 umbrella) umbrella
+    (ite (= x!0 s3_o1) s3_o1
+    (ite (= x!0 t2_o1) t2_o1
+    (ite (= x!0 t1_o4) t1_o4
+    (ite (= x!0 s1_o2) s1_o2
+    (ite (= x!0 cat) cat
+    (ite (= x!0 nullobj) nullobj
+    (ite (= x!0 s3_o3) s3_o3
+    (ite (= x!0 t3_o4) t3_o4
+    (ite (= x!0 t2_o3) t2_o3
+    (ite (= x!0 t2_o4) t2_o4
+    (ite (= x!0 s1_o3) s1_o3
+    (ite (= x!0 t3_o2) t3_o2
+    (ite (= x!0 t2_o2) t2_o2
+    (ite (= x!0 s2_o3) s2_o3
+    (ite (= x!0 car) car
+    (ite (= x!0 s2_o2) s2_o2
+    (ite (= x!0 t3_o1) t3_o1
+    (ite (= x!0 s1_o1) s1_o1
+    (ite (= x!0 t1_o2) t1_o2
+    (ite (= x!0 t1_o5) t1_o5
+    (ite (= x!0 chair) chair
+    (ite (= x!0 vase) vase
+    (ite (= x!0 pottedplant) pottedplant
+    (ite (= x!0 person) person
+    (ite (= x!0 s2_o1) s2_o1
+    (ite (= x!0 s3_o2) s3_o2
+      t1_o3)))))))))))))))))))))))))))))))
+  (define-fun x2!3 ((x!0 Obj)) Obj
+    (x2!3!323 (k!315 x!0)))
+  (define-fun x2!14 ((x!0 Obj)) Obj
+    (ite (= x!0 s2_o3) car
+    (ite (= x!0 s2_o1) t3_o3
+      s2_o2)))
+  (define-fun k!316 ((x!0 Obj)) Obj
+    (ite (= x!0 t1_o1) t1_o1
+    (ite (= x!0 t3_o3) t3_o3
+    (ite (= x!0 dog) dog
+    (ite (= x!0 umbrella) umbrella
+    (ite (= x!0 s3_o1) s3_o1
+    (ite (= x!0 t2_o1) t2_o1
+    (ite (= x!0 t1_o4) t1_o4
+    (ite (= x!0 s1_o2) s1_o2
+    (ite (= x!0 cat) cat
+    (ite (= x!0 nullobj) nullobj
+    (ite (= x!0 s3_o3) s3_o3
+    (ite (= x!0 t3_o4) t3_o4
+    (ite (= x!0 t2_o3) t2_o3
+    (ite (= x!0 t2_o4) t2_o4
+    (ite (= x!0 s1_o3) s1_o3
+    (ite (= x!0 t3_o2) t3_o2
+    (ite (= x!0 t2_o2) t2_o2
+    (ite (= x!0 s2_o3) s2_o3
+    (ite (= x!0 car) car
+    (ite (= x!0 s2_o2) s2_o2
+    (ite (= x!0 t3_o1) t3_o1
+    (ite (= x!0 s1_o1) s1_o1
+    (ite (= x!0 t1_o2) t1_o2
+    (ite (= x!0 t1_o5) t1_o5
+    (ite (= x!0 chair) chair
+    (ite (= x!0 vase) vase
+    (ite (= x!0 pottedplant) pottedplant
+    (ite (= x!0 person) person
+    (ite (= x!0 s2_o1) s2_o1
+    (ite (= x!0 s3_o2) s3_o2
+      t1_o3)))))))))))))))))))))))))))))))
+  (define-fun x2!6 ((x!0 Obj)) Obj
+    (x2!6!320 (k!316 x!0)))
+)

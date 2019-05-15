@@ -1,0 +1,30 @@
+Enter Image Path: data/Synthesis/concepts/strongmiddle/strongmiddle_train_1.jpg: Predicted in 46.740306 seconds.
+vase: 90%
+Bounding Box: Left=219, Top=151, Right=249, Bottom=200
+vase: 60%
+Bounding Box: Left=56, Top=120, Right=78, Bottom=137
+pottedplant: 70%
+Bounding Box: Left=38, Top=92, Right=88, Bottom=132
+chair: 99%
+Bounding Box: Left=359, Top=133, Right=447, Bottom=274
+chair: 95%
+Bounding Box: Left=3, Top=139, Right=133, Bottom=289
+Enter Image Path: data/Synthesis/concepts/strongmiddle/strongmiddle_train_2.jpg: Predicted in 27.439127 seconds.
+umbrella: 100%
+Bounding Box: Left=450, Top=305, Right=574, Bottom=390
+car: 100%
+Bounding Box: Left=576, Top=311, Right=995, Bottom=600
+car: 99%
+Bounding Box: Left=8, Top=351, Right=419, Bottom=590
+person: 100%
+Bounding Box: Left=464, Top=379, Right=555, Bottom=565
+Enter Image Path: data/Synthesis/concepts/strongmiddle/strongmiddle_train_3.jpg: Predicted in 27.842129 seconds.
+vase: 58%
+Bounding Box: Left=119, Top=39, Right=145, Bottom=66
+pottedplant: 85%
+Bounding Box: Left=117, Top=19, Right=146, Bottom=66
+chair: 100%
+Bounding Box: Left=179, Top=55, Right=264, Bottom=157
+chair: 92%
+Bounding Box: Left=6, Top=56, Right=107, Bottom=166
+Enter Image Path: 

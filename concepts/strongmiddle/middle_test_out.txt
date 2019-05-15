@@ -1,0 +1,22 @@
+Enter Image Path: data/Synthesis/concepts/middle/middle_test_1.jpg: Predicted in 50.549246 seconds.
+dog: 99%
+Bounding Box: Left=325, Top=4, Right=490, Bottom=300
+dog: 96%
+Bounding Box: Left=3, Top=13, Right=170, Bottom=300
+cat: 81%
+Bounding Box: Left=180, Top=21, Right=314, Bottom=297
+Enter Image Path: data/Synthesis/concepts/middle/middle_test_2.jpg: Predicted in 33.378816 seconds.
+dog: 97%
+Bounding Box: Left=184, Top=11, Right=332, Bottom=303
+dog: 96%
+Bounding Box: Left=14, Top=25, Right=163, Bottom=295
+cat: 75%
+Bounding Box: Left=348, Top=19, Right=493, Bottom=300
+Enter Image Path: data/Synthesis/concepts/middle/middle_test_3.jpg: Predicted in 33.223244 seconds.
+dog: 99%
+Bounding Box: Left=323, Top=7, Right=490, Bottom=302
+dog: 91%
+Bounding Box: Left=162, Top=19, Right=315, Bottom=295
+cat: 93%
+Bounding Box: Left=2, Top=15, Right=143, Bottom=301
+Enter Image Path: 

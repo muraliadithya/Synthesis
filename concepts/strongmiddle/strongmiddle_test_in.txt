@@ -1,0 +1,4 @@
+data/Synthesis/concepts/middle/strongmiddle_test_1.jpg
+data/Synthesis/concepts/middle/strongmiddle_test_2.jpg
+data/Synthesis/concepts/middle/strongmiddle_test_3.jpg
+data/Synthesis/concepts/middle/strongmiddle_test_4.jpg

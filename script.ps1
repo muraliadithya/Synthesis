@@ -17,5 +17,9 @@ else
 {$if_conjuncts = $args[4]}
 
 
-py main.py $trainfile $testfile $num_vars $num_rels $if_existential $if_conjuncts > smt_in.smt2
+py main.py $trainfile $testfile $num_vars $num_rels $if_existential $if_conjuncts 
+
+
+
+
 

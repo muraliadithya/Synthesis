@@ -1,13 +1,11 @@
-Enter Image Path: data/Synthesis/concepts/allcatsonsofas/allcatsonsofas_test_1.jpg: Predicted in 62.391741 seconds.
-bed: 74%
-Bounding Box: Left=138, Top=130, Right=296, Bottom=291
-sofa: 66%
-Bounding Box: Left=136, Top=91, Right=295, Bottom=274
-cat: 100%
-Bounding Box: Left=58, Top=191, Right=133, Bottom=266
-cat: 98%
-Bounding Box: Left=179, Top=164, Right=236, Bottom=231
-Enter Image Path: data/Synthesis/concepts/allcatsonsofas/allcatsonsofas_test_2.jpg: Predicted in 35.594284 seconds.
+Enter Image Path: data/Synthesis/concepts/allcatsonsofas/allcatsonsofas_test_1.jpg: Predicted in 54.807818 seconds.
+sofa: 64%
+Bounding Box: Left=136, Top=109, Right=295, Bottom=245
+cat: 99%
+Bounding Box: Left=62, Top=192, Right=132, Bottom=248
+cat: 91%
+Bounding Box: Left=181, Top=164, Right=230, Bottom=232
+Enter Image Path: data/Synthesis/concepts/allcatsonsofas/allcatsonsofas_test_2.jpg: Predicted in 37.082420 seconds.
 sofa: 98%
 Bounding Box: Left=0, Top=40, Right=3301, Bottom=2193
 cat: 95%

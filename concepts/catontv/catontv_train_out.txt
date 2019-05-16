@@ -1,19 +1,11 @@
-Enter Image Path: data/Synthesis/concepts/catontv/catontv_train_1.jpg: Predicted in 114.254743 seconds.
-book: 73%
-Bounding Box: Left=571, Top=2, Right=588, Bottom=78
-book: 67%
-Bounding Box: Left=554, Top=2, Right=573, Bottom=81
-book: 54%
-Bounding Box: Left=538, Top=3, Right=560, Bottom=83
-book: 51%
-Bounding Box: Left=589, Top=6, Right=610, Bottom=75
-tvmonitor: 92%
-Bounding Box: Left=24, Top=71, Right=426, Bottom=529
+Enter Image Path: data/Synthesis/concepts/catontv/catontv_train_1.jpg: Predicted in 116.372727 seconds.
+tvmonitor: 85%
+Bounding Box: Left=45, Top=134, Right=443, Bottom=554
+Enter Image Path: data/Synthesis/concepts/catontv/catontv_train_2.jpg: Predicted in 114.669056 seconds.
+tvmonitor: 90%
+Bounding Box: Left=202, Top=186, Right=413, Bottom=385
 cat: 100%
-Bounding Box: Left=516, Top=235, Right=638, Bottom=479
-cat: 80%
-Bounding Box: Left=182, Top=191, Right=334, Bottom=451
-Enter Image Path: data/Synthesis/concepts/catontv/catontv_train_2.jpg: Predicted in 112.003346 seconds.
-tvmonitor: 94%
-Bounding Box: Left=200, Top=193, Right=399, Bottom=379
+Bounding Box: Left=153, Top=466, Right=451, Bottom=622
+cat: 85%
+Bounding Box: Left=221, Top=190, Right=384, Bottom=335
 Enter Image Path: 

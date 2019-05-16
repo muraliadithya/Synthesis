@@ -1,3 +1,2 @@
 data/Synthesis/concepts/catontv/catontv_train_1.jpg
 data/Synthesis/concepts/catontv/catontv_train_2.jpg
-data/Synthesis/concepts/catontv/catontv_train_3.jpg

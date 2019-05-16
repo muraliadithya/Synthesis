@@ -1,0 +1,29 @@
+Enter Image Path: data/Synthesis/concepts/formal/formal_test_1.jpg: Predicted in 69.590250 seconds.
+tie: 99%
+Bounding Box: Left=861, Top=481, Right=970, Bottom=829
+person: 100%
+Bounding Box: Left=1074, Top=139, Right=1699, Bottom=890
+person: 100%
+Bounding Box: Left=0, Top=153, Right=953, Bottom=1065
+person: 100%
+Bounding Box: Left=566, Top=99, Right=1388, Bottom=923
+Enter Image Path: data/Synthesis/concepts/formal/formal_test_2.jpg: Predicted in 61.948687 seconds.
+cell phone: 57%
+Bounding Box: Left=77, Top=177, Right=95, Bottom=188
+chair: 69%
+Bounding Box: Left=297, Top=177, Right=396, Bottom=266
+person: 100%
+Bounding Box: Left=8, Top=124, Right=149, Bottom=266
+person: 100%
+Bounding Box: Left=167, Top=28, Right=286, Bottom=263
+person: 100%
+Bounding Box: Left=8, Top=44, Right=81, Bottom=251
+person: 99%
+Bounding Box: Left=268, Top=110, Right=385, Bottom=266
+person: 99%
+Bounding Box: Left=58, Top=34, Right=132, Bottom=181
+person: 98%
+Bounding Box: Left=272, Top=60, Right=382, Bottom=199
+person: 97%
+Bounding Box: Left=122, Top=63, Right=182, Bottom=174
+Enter Image Path: 

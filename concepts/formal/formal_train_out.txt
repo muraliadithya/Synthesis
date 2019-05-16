@@ -1,21 +1,21 @@
-Enter Image Path: data/Synthesis/concepts/formal/formal_train_1.jpg: Predicted in 68.188519 seconds.
+Enter Image Path: data/Synthesis/concepts/formal/formal_train_1.jpg: Predicted in 61.949334 seconds.
 tie: 99%
 Bounding Box: Left=616, Top=1668, Right=937, Bottom=2938
 person: 100%
 Bounding Box: Left=1595, Top=0, Right=3977, Bottom=2980
 person: 100%
 Bounding Box: Left=85, Top=198, Right=2152, Bottom=2917
-Enter Image Path: data/Synthesis/concepts/formal/formal_train_2.jpg: Predicted in 105.374832 seconds.
+Enter Image Path: data/Synthesis/concepts/formal/formal_train_2.jpg: Predicted in 61.054124 seconds.
 tie: 99%
 Bounding Box: Left=837, Top=1593, Right=1126, Bottom=2108
 person: 100%
 Bounding Box: Left=46, Top=469, Right=1658, Bottom=2461
-Enter Image Path: data/Synthesis/concepts/formal/formal_train_3.jpg: Predicted in 62.167285 seconds.
+Enter Image Path: data/Synthesis/concepts/formal/formal_train_3.jpg: Predicted in 37.610720 seconds.
 tie: 100%
 Bounding Box: Left=543, Top=898, Right=742, Bottom=1499
 person: 100%
 Bounding Box: Left=36, Top=79, Right=957, Bottom=1499
-Enter Image Path: data/Synthesis/concepts/formal/formal_train_4.jpg: Predicted in 60.082637 seconds.
+Enter Image Path: data/Synthesis/concepts/formal/formal_train_4.jpg: Predicted in 39.039417 seconds.
 tie: 100%
 Bounding Box: Left=94, Top=105, Right=106, Bottom=189
 tie: 96%

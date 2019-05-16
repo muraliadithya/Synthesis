@@ -1,15 +1,15 @@
-Enter Image Path: data/Synthesis/concepts/tvon/tvon_test_1.jpg: Predicted in 67.046816 seconds.
+Enter Image Path: data/Synthesis/concepts/tvon/tvon_test_1.jpg: Predicted in 63.994557 seconds.
+tvmonitor: 95%
+Bounding Box: Left=219, Top=20, Right=1052, Bottom=594
+pottedplant: 60%
+Bounding Box: Left=0, Top=331, Right=81, Bottom=694
+cat: 94%
+Bounding Box: Left=48, Top=332, Right=423, Bottom=716
+bird: 93%
+Bounding Box: Left=382, Top=36, Right=787, Bottom=328
+Enter Image Path: data/Synthesis/concepts/tvon/tvon_test_2.jpg: Predicted in 74.156765 seconds.
 tvmonitor: 99%
-Bounding Box: Left=233, Top=107, Right=1662, Bottom=1146
-person: 92%
-Bounding Box: Left=646, Top=202, Right=1428, Bottom=1031
-Enter Image Path: data/Synthesis/concepts/tvon/tvon_test_2.jpg: Predicted in 60.645113 seconds.
-vase: 98%
-Bounding Box: Left=965, Top=663, Right=1040, Bottom=776
-clock: 66%
-Bounding Box: Left=817, Top=0, Right=933, Bottom=31
-remote: 74%
-Bounding Box: Left=1012, Top=779, Right=1064, Bottom=817
-tvmonitor: 100%
-Bounding Box: Left=444, Top=215, Right=877, Bottom=498
+Bounding Box: Left=563, Top=101, Right=940, Bottom=443
+person: 100%
+Bounding Box: Left=174, Top=211, Right=921, Bottom=888
 Enter Image Path: 

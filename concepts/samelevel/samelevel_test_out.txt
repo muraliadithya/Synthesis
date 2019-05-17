@@ -1,0 +1,19 @@
+Enter Image Path: data/Synthesis/concepts/samelevel/samelevel_test_1.jpg: Predicted in 128.364181 seconds.
+orange: 100%
+Bounding Box: Left=1213, Top=268, Right=1986, Bottom=1053
+orange: 100%
+Bounding Box: Left=2401, Top=309, Right=3163, Bottom=1057
+orange: 100%
+Bounding Box: Left=3542, Top=325, Right=4309, Bottom=1063
+orange: 100%
+Bounding Box: Left=135, Top=273, Right=911, Bottom=1043
+Enter Image Path: data/Synthesis/concepts/samelevel/samelevel_test_2.jpg: Predicted in 124.449227 seconds.
+orange: 100%
+Bounding Box: Left=1000, Top=1031, Right=1751, Bottom=1820
+orange: 100%
+Bounding Box: Left=1845, Top=1929, Right=2610, Bottom=2695
+orange: 100%
+Bounding Box: Left=2688, Top=2612, Right=3452, Bottom=3382
+orange: 99%
+Bounding Box: Left=131, Top=198, Right=909, Bottom=938
+Enter Image Path: 

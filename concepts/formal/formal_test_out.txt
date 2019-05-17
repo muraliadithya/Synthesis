@@ -1,4 +1,4 @@
-Enter Image Path: data/Synthesis/concepts/formal/formal_test_1.jpg: Predicted in 69.590250 seconds.
+Enter Image Path: data/Synthesis/concepts/formal/formal_test_1.jpg: Predicted in 118.799627 seconds.
 tie: 99%
 Bounding Box: Left=861, Top=481, Right=970, Bottom=829
 person: 100%
@@ -7,7 +7,7 @@ person: 100%
 Bounding Box: Left=0, Top=153, Right=953, Bottom=1065
 person: 100%
 Bounding Box: Left=566, Top=99, Right=1388, Bottom=923
-Enter Image Path: data/Synthesis/concepts/formal/formal_test_2.jpg: Predicted in 61.948687 seconds.
+Enter Image Path: data/Synthesis/concepts/formal/formal_test_2.jpg: Predicted in 119.463397 seconds.
 cell phone: 57%
 Bounding Box: Left=77, Top=177, Right=95, Bottom=188
 chair: 69%

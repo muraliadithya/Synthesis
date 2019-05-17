@@ -1,4 +1,4 @@
-Enter Image Path: data/Synthesis/concepts/stable_alldogsonsofas/stable_alldogsonsofas_train_1.jpg: Predicted in 76.695245 seconds.
+Enter Image Path: data/Synthesis/concepts/stable_alldogsonsofas/stable_alldogsonsofas_train_1.jpg: Predicted in 59.977557 seconds.
 sofa: 87%
 Bounding Box: Left=37, Top=6, Right=575, Bottom=853
 chair: 87%
@@ -13,14 +13,14 @@ dog: 98%
 Bounding Box: Left=29, Top=296, Right=354, Bottom=505
 dog: 92%
 Bounding Box: Left=997, Top=352, Right=1248, Bottom=578
-Enter Image Path: data/Synthesis/concepts/stable_alldogsonsofas/stable_alldogsonsofas_train_2.jpg: Predicted in 102.007628 seconds.
-sofa: 99%
-Bounding Box: Left=78, Top=139, Right=568, Bottom=364
-dog: 82%
-Bounding Box: Left=400, Top=215, Right=522, Bottom=293
-dog: 56%
-Bounding Box: Left=119, Top=225, Right=234, Bottom=291
-Enter Image Path: data/Synthesis/concepts/stable_alldogsonsofas/stable_alldogsonsofas_train_3.jpg: Predicted in 59.098105 seconds.
+Enter Image Path: data/Synthesis/concepts/stable_alldogsonsofas/stable_alldogsonsofas_train_2.jpg: Predicted in 59.186766 seconds.
+sofa: 98%
+Bounding Box: Left=49, Top=190, Right=559, Bottom=399
+dog: 100%
+Bounding Box: Left=362, Top=254, Right=417, Bottom=350
+dog: 97%
+Bounding Box: Left=246, Top=210, Right=374, Bottom=356
+Enter Image Path: data/Synthesis/concepts/stable_alldogsonsofas/stable_alldogsonsofas_train_3.jpg: Predicted in 35.436537 seconds.
 book: 75%
 Bounding Box: Left=0, Top=309, Right=64, Bottom=347
 bed: 61%

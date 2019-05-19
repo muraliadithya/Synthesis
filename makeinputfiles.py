@@ -1,6 +1,8 @@
 import sys
 import os
 
+#def makeinputfiles():
+
 case = sys.argv[1]
 pwd = os.getcwd()
 folder = pwd + "/concepts/" + case + "/"

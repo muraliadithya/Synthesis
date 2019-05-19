@@ -1,0 +1,23 @@
+Enter Image Path: /home/adithya/Synthesis/concepts/sleeping/sleeping_test_3.jpg: Predicted in 20.950226 seconds.
+cat: 98%
+Bounding Box: Left=55, Top=62, Right=211, Bottom=140
+bench: 89%
+Bounding Box: Left=20, Top=25, Right=299, Bottom=175
+Enter Image Path: /home/adithya/Synthesis/concepts/sleeping/sleeping_test_2.jpg: Predicted in 20.471613 seconds.
+bench: 96%
+Bounding Box: Left=172, Top=165, Right=512, Bottom=318
+bench: 74%
+Bounding Box: Left=97, Top=28, Right=455, Bottom=175
+bench: 52%
+Bounding Box: Left=97, Top=0, Right=252, Bottom=83
+person: 99%
+Bounding Box: Left=101, Top=35, Right=407, Bottom=162
+Enter Image Path: /home/adithya/Synthesis/concepts/sleeping/sleeping_test_4.jpg: Predicted in 20.443508 seconds.
+bench: 100%
+Bounding Box: Left=0, Top=256, Right=584, Bottom=420
+person: 100%
+Bounding Box: Left=31, Top=90, Right=414, Bottom=424
+Enter Image Path: /home/adithya/Synthesis/concepts/sleeping/sleeping_test_1.jpg: Predicted in 20.723884 seconds.
+bench: 100%
+Bounding Box: Left=343, Top=236, Right=638, Bottom=379
+Enter Image Path: 

@@ -1,0 +1,4 @@
+/home/adithya/Synthesis/concepts/sleeping/sleeping_test_3.jpg
+/home/adithya/Synthesis/concepts/sleeping/sleeping_test_2.jpg
+/home/adithya/Synthesis/concepts/sleeping/sleeping_test_4.jpg
+/home/adithya/Synthesis/concepts/sleeping/sleeping_test_1.jpg

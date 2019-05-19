@@ -1,0 +1,15 @@
+Results for test image 3
+Unsat: cannot be a solution
+++++++++++++++
+Results for test image 2
+Exists x1. Exists x2. 
+(and
+[Not labelOf(x2,cat)]
+[within(x2,x1)])
+++++++++++++++
+Results for test image 1
+Unsat: cannot be a solution
+++++++++++++++
+Results for test image 4
+Unsat: cannot be a solution
+++++++++++++++

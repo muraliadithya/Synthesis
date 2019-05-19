@@ -24,8 +24,13 @@ def define_formula_level(level,num_vars):
   "))"
 
   preamble = ";Formula at quantifier level " + str(level) + "\n"
-  print preamble + result 
+  return preamble + result
 
+def define_formula_levels(num_vars):
+  result = ""
+  for i in range(num_vars,0,-1):
+     result = result + define_formula_level(i,num_vars)
+  return result
 
 def define_baseformula(treearg,num_vars,arity):
   if type(treearg) == int:
@@ -53,4 +58,4 @@ def define_baseformula(treearg,num_vars,arity):
   result = "(define-fun " + name + " ("+ args + ") Bool\n" + formula + "\n)"
 
   preamble = ";Defines the innermost (quantifier-free) formula\n"
-  print preamble + result
+  return preamble + result

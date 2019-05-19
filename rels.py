@@ -12,7 +12,7 @@ def define_fun_label(d):
   result = "(define-fun label ((x Obj)) Obj\n" + temp + "\n)"
 
   preamble = ";Machinery for looking up labels of objects\n" + ";Default value is 'nullobj'\n"
-  print preamble + result
+  return preamble + result
 
 # Defines the function that evaluates each object to its corresponding boundary. One function for each boundary.
 def define_fun_border(d,direction):
@@ -28,13 +28,13 @@ def define_fun_border(d,direction):
   result = "(define-fun " + direction + "_border ((x Obj)) Int\n" + temp + "\n)"
   
   preamble = ";Machinery for looking up the " + direction + " boundary of the bounding boxes\n" + ";Default value is 0\n"
-  print preamble + result
+  return preamble + result
 
 # Defines the datatype of relations
 def declare_datatype_rels():
   preamble = ";Datatype of relations--made into a uniform arity\n"
   result = "(declare-datatypes () ((Rels neq labelOf sameLabel toLeft toRight above below within)))"
-  print preamble + result
+  return preamble + result
 
 # Auxiliary function for universal relation evaluator generation
 def temp_neq_gen():
@@ -96,8 +96,8 @@ def define_fun_re(d):
   temp_below = temp_below_gen(d)
   temp_within = temp_within_gen(d)
 
-  temp = "(or" + ("\n" + temp_neq) + ("\n" + temp_labelOf) + ("\n" + temp_labelOf) + ("\n" + temp_toLeft) + ("\n" + temp_toRight) + ("\n" + temp_above) + ("\n" + temp_below) + ("\n" + temp_within) + "\n)"
+  temp = "(or" + ("\n" + temp_neq) + ("\n" + temp_labelOf) + ("\n" + temp_sameLabel) + ("\n" + temp_toLeft) + ("\n" + temp_toRight) + ("\n" + temp_above) + ("\n" + temp_below) + ("\n" + temp_within) + "\n)"
   result = "(define-fun re ((r Rels)(a Obj)(b Obj)) Bool\n" + temp +")"
 
   preamble = ";Relation evaluator\n" + ";All relations are made into a uniform arity using 'nullobj' as a default argument\n"
-  print preamble + result
+  return preamble + result

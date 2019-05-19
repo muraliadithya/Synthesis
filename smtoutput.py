@@ -39,39 +39,56 @@ def recover_baseformula(lst,dt,arity):
   
 
 
-def read_smt_output(smtfile,treearg,num_vars,arity):
-  smt_file = open(smtfile, 'r')
-  smt_str = smt_file.readline()
-  
-  if 'unsat' in smt_str:
-    print 'Unsat\n'
-
+def construct_formula(model,treearg,num_vars,arity):
+  if type(treearg) == int:
+    pt = gen_default_parsetree(treearg)
+  elif type(treearg) == list:
+    pt = treearg
   else:
-    if type(treearg) == int:
-      pt = gen_default_parsetree(treearg)
-    elif type(treearg) == list:
-      pt = treearg
+    raise ValueError('You must specify either a number of relations or a parsetree.')
+
+  dt = decorate_parsetree(pt)[0]
+
+  result = ""
+
+  for i in range(1, num_vars + 1):
+    quant_i = quantlookup(i, model)
+    if quant_i == 'all':
+      result = result + 'Forall x' + str(i) + '. '
+    else:  # quant_i == 'one':
+      result = result + 'Exists x' + str(i) + '. '
+
+  result = result + "\n" + recover_baseformula(model, dt, arity)
+  return result
+
+
+def read_smt_output(smtfile,treearg,num_vars,arity):
+  result = ""
+
+  smt_file = open(smtfile, 'r')
+  smtstr = smt_file.read()
+
+  results = smtstr.split('Results for ')[1:]
+
+  for each_res in results:
+    each_res = each_res.split('\n')
+    result = result + "Results for test image " + each_res[0][1] + "\n"
+
+    if 'unsat' in each_res[1]:
+      result = result + 'Unsat: cannot be a solution\n'
     else:
-      raise ValueError('You must specify either a number of relations or a parsetree.')
-    
-    dt = decorate_parsetree(pt)[0]
-    lst = smt_file.read().split('\n')
+      result = result + construct_formula(each_res[2:],treearg,num_vars,arity) + "\n"
+    result = result + "++++++++++++++\n"
 
-    result = ""
-    
-    for i in range(1,num_vars+1):
-      quant_i = quantlookup(i,lst)
-      if quant_i == 'all':
-        result = result + 'Forall x' + str(i) + '. '
-      else: #quant_i == 'one':
-        result = result + 'Exists x' + str(i) + '. '
+  smt_file.close()
 
-    result = result + "\n" + recover_baseformula(lst,dt,arity)
-    print result
+  return result
 
-smt_outfile = sys.argv[1]
-num_rels = int(sys.argv[2])
-num_vars = int(sys.argv[3])
-arity = 2
 
-read_smt_output(smt_outfile,num_rels,num_vars,arity)
+
+# smt_outfile = sys.argv[1]
+# num_rels = int(sys.argv[2])
+# num_vars = int(sys.argv[3])
+# arity = 2
+#
+# read_smt_output(smt_outfile,num_rels,num_vars,arity)

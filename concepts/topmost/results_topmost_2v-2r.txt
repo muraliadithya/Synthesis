@@ -1,0 +1,9 @@
+Results for test image 2
+Exists x1. Forall x2. 
+(or
+[above(x1,x2)]
+[Not neq(x1,x2)])
+++++++++++++++
+Results for test image 1
+Unsat: cannot be a solution
+++++++++++++++

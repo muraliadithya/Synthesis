@@ -1,4 +1,5 @@
-import sys
+#import sys
+from utilities import *
 
 def model_parser(model_string,model_id):
     model = model_string.split('\n')[1:-1]
@@ -32,3 +33,26 @@ def parse_input(string, mode):
     all_models[model_id] = model_parser(each_model[i],model_id)
 
   return all_models
+
+
+def input_files(trainfile, testfile):
+  train_file = open(trainfile, 'r')
+  train_str = train_file.read()
+  test_file = open(testfile, 'r')
+  test_str = test_file.read()
+
+  train_dict = parse_input(train_str, 'train')
+  test_dict = parse_input(test_str, 'test')
+  problem_dict = {}
+  problem_dict['train'] = train_dict
+  problem_dict['test'] = test_dict
+
+  smtdict = {}
+  smtdict['elem'] = make_elem(problem_dict)
+  smtdict['label'] = make_feature(problem_dict, 'label')
+  smtdict['top_border'] = make_feature(problem_dict, 'top_border')
+  smtdict['bottom_border'] = make_feature(problem_dict, 'bottom_border')
+  smtdict['left_border'] = make_feature(problem_dict, 'left_border')
+  smtdict['right_border'] = make_feature(problem_dict, 'right_border')
+
+  return (problem_dict,smtdict)

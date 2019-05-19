@@ -1,4 +1,4 @@
-Enter Image Path: data/Synthesis/concepts/topmost/topmost_train_1.jpg: Predicted in 95.075983 seconds.
+Enter Image Path: /home/adithya/Synthesis/concepts/topmost/topmost_train_1.jpg: Predicted in 20.673218 seconds.
 orange: 100%
 Bounding Box: Left=3470, Top=1331, Right=4249, Bottom=2118
 orange: 100%
@@ -11,7 +11,7 @@ orange: 99%
 Bounding Box: Left=2635, Top=276, Right=3498, Bottom=1068
 orange: 98%
 Bounding Box: Left=1839, Top=1280, Right=2565, Bottom=2026
-Enter Image Path: data/Synthesis/concepts/topmost/topmost_train_2.jpg: Predicted in 117.752685 seconds.
+Enter Image Path: /home/adithya/Synthesis/concepts/topmost/topmost_train_2.jpg: Predicted in 20.328691 seconds.
 orange: 99%
 Bounding Box: Left=92, Top=226, Right=402, Bottom=540
 orange: 99%
@@ -20,7 +20,7 @@ orange: 99%
 Bounding Box: Left=46, Top=1380, Right=386, Bottom=1722
 orange: 99%
 Bounding Box: Left=71, Top=979, Right=393, Bottom=1316
-Enter Image Path: data/Synthesis/concepts/topmost/topmost_train_3.jpg: Predicted in 63.195454 seconds.
+Enter Image Path: /home/adithya/Synthesis/concepts/topmost/topmost_train_3.jpg: Predicted in 20.343569 seconds.
 orange: 100%
 Bounding Box: Left=95, Top=2057, Right=810, Bottom=2768
 orange: 100%

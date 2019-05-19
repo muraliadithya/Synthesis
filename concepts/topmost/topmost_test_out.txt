@@ -1,4 +1,4 @@
-Enter Image Path: data/Synthesis/concepts/topmost/topmost_test_1.jpg: Predicted in 123.422316 seconds.
+Enter Image Path: /home/adithya/Synthesis/concepts/topmost/topmost_test_1.jpg: Predicted in 21.216209 seconds.
 orange: 100%
 Bounding Box: Left=1416, Top=144, Right=2102, Bottom=846
 orange: 100%
@@ -7,7 +7,7 @@ orange: 100%
 Bounding Box: Left=2849, Top=161, Right=3539, Bottom=852
 orange: 99%
 Bounding Box: Left=100, Top=112, Right=794, Bottom=791
-Enter Image Path: data/Synthesis/concepts/topmost/topmost_test_2.jpg: Predicted in 103.681896 seconds.
+Enter Image Path: /home/adithya/Synthesis/concepts/topmost/topmost_test_2.jpg: Predicted in 20.994246 seconds.
 orange: 100%
 Bounding Box: Left=1188, Top=537, Right=1506, Bottom=881
 orange: 100%

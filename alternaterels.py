@@ -50,4 +50,4 @@ def define_fun_precompute_re(d):
   result = "(define-fun re ((r Rels)(a Obj)(b Obj)) Bool\n" + temp +")"
 
   preamble = ";Relation evaluator\n" + ";All relations are made into a uniform arity using 'nullobj' as a default argument\n"
-  print preamble + result
+  return preamble + result

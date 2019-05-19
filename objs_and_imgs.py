@@ -15,7 +15,7 @@ def declare_datatype_Img(d):
   result = "(declare-datatypes () ((Img\n" + temp + "\n)))"
 
   preamble = ";Datatype of images\n"
-  print preamble + result
+  return preamble + result
 
 # Defines the datatype of objects
 # Extraneous objects that are not real objects also exist
@@ -35,7 +35,7 @@ def declare_datatype_Obj(d):
   result = "(declare-datatypes () ((Obj\n" + temp + "\n)))"
 
   preamble = ";Constant symbols for objects\n" + ";All values are distinct by default\n"
-  print preamble + result 
+  return preamble + result
 
 # Defines the predicate that evaluates whether a given object belongs to a given image
 def define_fun_inImg(d):
@@ -55,4 +55,4 @@ def define_fun_inImg(d):
   result = "(define-fun inImg ((x Obj )(y Img)) Bool\n" + "(or\n" + temp + "))"
   
   preamble = ";Membership of objects in images\n" + ";Extraneous objects belong to no images\n"
-  print preamble + result
+  return preamble + result

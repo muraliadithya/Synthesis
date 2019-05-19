@@ -14,6 +14,17 @@ def model_parser(model_string,model_id):
         top = boundaries[1].split('=')[1]
         right = boundaries[2].split('=')[1]
         bottom = boundaries[3].split('=')[1]
+
+        #to handle multiple names
+        if len(name.split(' ')) > 1:
+          longname = name.split(' ')
+          #print longname
+          name = ""
+          for names in longname:
+            name = name + "_" + names
+          name = name[1:]
+          #print name
+    
         parsed_model[model_id+"_o"+str(i+1)] = (name, int(confidence), {'left':int(left), 'right':int(right), 'top':int(top), 'bottom':int(bottom)})
     return parsed_model
 

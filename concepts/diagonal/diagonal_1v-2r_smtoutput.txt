@@ -1,0 +1,9 @@
+Results for s3
+unsat
+(error "line 219 column 10: model is not available")
+Results for s2
+unsat
+(error "line 228 column 10: model is not available")
+Results for s1
+unsat
+(error "line 237 column 10: model is not available")

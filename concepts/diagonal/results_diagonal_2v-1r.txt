@@ -2,10 +2,7 @@ Results for test image 3
 Unsat: cannot be a solution
 ++++++++++++++
 Results for test image 2
-Forall x1. Forall x2. 
-(impl
-[toRight(x2,x1)]
-[above(x1,x2)])
+Unsat: cannot be a solution
 ++++++++++++++
 Results for test image 1
 Unsat: cannot be a solution

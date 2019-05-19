@@ -1,13 +1,13 @@
-Enter Image Path: /home/adithya/Synthesis/concepts/diagonal/diagonal_train_1.jpg: Predicted in 21.289772 seconds.
+Enter Image Path: /home/adithya/Synthesis/concepts/diagonal/diagonal_train_1.jpg: Predicted in 20.941768 seconds.
 orange: 100%
-Bounding Box: Left=1397, Top=1278, Right=2032, Bottom=1874
+Bounding Box: Left=612, Top=641, Right=1226, Bottom=1241
 orange: 100%
-Bounding Box: Left=733, Top=672, Right=1336, Bottom=1281
-Enter Image Path: /home/adithya/Synthesis/concepts/diagonal/diagonal_train_2.jpg: Predicted in 20.844378 seconds.
+Bounding Box: Left=1504, Top=1508, Right=2141, Bottom=2155
+Enter Image Path: /home/adithya/Synthesis/concepts/diagonal/diagonal_train_2.jpg: Predicted in 20.661376 seconds.
 orange: 100%
-Bounding Box: Left=1844, Top=1611, Right=2473, Bottom=2231
+Bounding Box: Left=1097, Top=967, Right=1728, Bottom=1575
 orange: 100%
-Bounding Box: Left=432, Top=397, Right=1057, Bottom=1003
-orange: 100%
-Bounding Box: Left=1098, Top=968, Right=1727, Bottom=1574
+Bounding Box: Left=2004, Top=1847, Right=2636, Bottom=2499
+orange: 99%
+Bounding Box: Left=314, Top=192, Right=956, Bottom=805
 Enter Image Path: 

@@ -153,19 +153,18 @@ nullobj)))))))))))))))))
 ;Datatype of indirections to indicate what the arguments of relations in the abstract baseformula are-- i.e, a datatype of bindings 
 ;Constants/extraneous objects have bindings as well
 (declare-datatypes () ((Binding
- bind_x1 bind_x2
+ bind_x1
 ;bindings for extraneous objects
  bind_orange bind_nullobj
 )))
 ;Defines how bindings correspond to valuations
 ;Default lookup is nullobj, but it is used since the function is defined for all bindings
-(define-fun bindlook ((x1 Obj)(x2 Obj)(bind Binding)) Obj
-(ite (= bind bind_x2) x2
+(define-fun bindlook ((x1 Obj)(bind Binding)) Obj
 (ite (= bind bind_x1) x1
 ;Bindings for extraneous objects
 (ite (= bind bind_nullobj) nullobj
 (ite (= bind bind_orange) orange
- nullobj))))
+ nullobj)))
 )
 ;Defines symbols used to indicate which boolean operators will be used, including negations, and their meanings as well
 (declare-datatypes () ((Ops opand opor opimpl)))
@@ -181,7 +180,6 @@ nullobj)))))))))))))))))
   arg
 ))
 (declare-const q1 Quantifier)
-(declare-const q2 Quantifier)
 
 (declare-const op1 Ops)
 
@@ -197,21 +195,16 @@ nullobj)))))))))))))))))
 (declare-const arg2_2 Binding)
 
 ;Defines the innermost (quantifier-free) formula
-(define-fun baseformula ((x1 Obj)(x2 Obj)) Bool
+(define-fun baseformula ((x1 Obj)) Bool
 (opeval op1
-(negeval n1 (re r1 (bindlook x1 x2 arg1_1) (bindlook x1 x2 arg1_2)))
-(negeval n2 (re r2 (bindlook x1 x2 arg2_1) (bindlook x1 x2 arg2_2))))
+(negeval n1 (re r1 (bindlook x1 arg1_1) (bindlook x1 arg1_2)))
+(negeval n2 (re r2 (bindlook x1 arg2_1) (bindlook x1 arg2_2))))
 )
-;Formula at quantifier level 2
-(define-fun formula_level_2 ((x1 Obj) (img Img)) Bool
-(ite (= q2 all)
- (forall ((x2 Obj)) (=> (inImg x2 img) (baseformula x1 x2)))
- (exists ((x2 Obj)) (and (inImg x2 img) (baseformula x1 x2)))
-));Formula at quantifier level 1
+;Formula at quantifier level 1
 (define-fun formula_level_1 ((img Img)) Bool
 (ite (= q1 all)
- (forall ((x1 Obj)) (=> (inImg x1 img) (formula_level_2 x1 img)))
- (exists ((x1 Obj)) (and (inImg x1 img) (formula_level_2 x1 img)))
+ (forall ((x1 Obj)) (=> (inImg x1 img) (baseformula x1)))
+ (exists ((x1 Obj)) (and (inImg x1 img) (baseformula x1)))
 ))
 
 (assert (formula_level_1 t2))

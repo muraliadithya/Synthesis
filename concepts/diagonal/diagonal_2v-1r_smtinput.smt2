@@ -183,24 +183,17 @@ nullobj)))))))))))))))))
 (declare-const q1 Quantifier)
 (declare-const q2 Quantifier)
 
-(declare-const op1 Ops)
 
 (declare-const n1 IfNeg)
-(declare-const n2 IfNeg)
 
 (declare-const r1 Rels)
-(declare-const r2 Rels)
 
 (declare-const arg1_1 Binding)
 (declare-const arg1_2 Binding)
-(declare-const arg2_1 Binding)
-(declare-const arg2_2 Binding)
 
 ;Defines the innermost (quantifier-free) formula
 (define-fun baseformula ((x1 Obj)(x2 Obj)) Bool
-(opeval op1
 (negeval n1 (re r1 (bindlook x1 x2 arg1_1) (bindlook x1 x2 arg1_2)))
-(negeval n2 (re r2 (bindlook x1 x2 arg2_1) (bindlook x1 x2 arg2_2))))
 )
 ;Formula at quantifier level 2
 (define-fun formula_level_2 ((x1 Obj) (img Img)) Bool

@@ -1,0 +1,28 @@
+Enter Image Path: /home/adithya/Synthesis/concepts/diagonal/diagonal_test_1.jpg: Predicted in 21.417906 seconds.
+orange: 100%
+Bounding Box: Left=753, Top=1249, Right=1382, Bottom=1872
+orange: 100%
+Bounding Box: Left=2017, Top=76, Right=2641, Bottom=681
+orange: 100%
+Bounding Box: Left=135, Top=1943, Right=773, Bottom=2612
+orange: 100%
+Bounding Box: Left=1400, Top=665, Right=2028, Bottom=1279
+Enter Image Path: /home/adithya/Synthesis/concepts/diagonal/diagonal_test_2.jpg: Predicted in 22.179302 seconds.
+orange: 100%
+Bounding Box: Left=1520, Top=1294, Right=2163, Bottom=1902
+orange: 100%
+Bounding Box: Left=789, Top=689, Right=1400, Bottom=1287
+orange: 99%
+Bounding Box: Left=100, Top=80, Right=745, Bottom=680
+orange: 99%
+Bounding Box: Left=2285, Top=2011, Right=2951, Bottom=2649
+Enter Image Path: /home/adithya/Synthesis/concepts/diagonal/diagonal_test_3.jpg: Predicted in 20.653086 seconds.
+orange: 100%
+Bounding Box: Left=2562, Top=891, Right=3150, Bottom=1451
+orange: 100%
+Bounding Box: Left=1562, Top=805, Right=2210, Bottom=1448
+orange: 99%
+Bounding Box: Left=3440, Top=868, Right=4132, Bottom=1496
+orange: 99%
+Bounding Box: Left=581, Top=798, Right=1260, Bottom=1440
+Enter Image Path: 

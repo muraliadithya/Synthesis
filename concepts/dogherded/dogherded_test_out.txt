@@ -1,0 +1,30 @@
+Enter Image Path: /home/adithya/Synthesis/concepts/dogherded/dogherded_test_1.jpg: Predicted in 20.814325 seconds.
+dog: 100%
+Bounding Box: Left=355, Top=169, Right=436, Bottom=259
+dog: 100%
+Bounding Box: Left=154, Top=83, Right=245, Bottom=244
+Enter Image Path: /home/adithya/Synthesis/concepts/dogherded/dogherded_test_2.jpg: Predicted in 20.505347 seconds.
+sheep: 100%
+Bounding Box: Left=308, Top=241, Right=407, Bottom=328
+sheep: 100%
+Bounding Box: Left=212, Top=219, Right=328, Bottom=324
+sheep: 99%
+Bounding Box: Left=396, Top=255, Right=587, Bottom=340
+sheep: 86%
+Bounding Box: Left=382, Top=242, Right=423, Bottom=297
+sheep: 84%
+Bounding Box: Left=407, Top=239, Right=439, Bottom=274
+person: 100%
+Bounding Box: Left=99, Top=94, Right=231, Bottom=326
+Enter Image Path: /home/adithya/Synthesis/concepts/dogherded/dogherded_test_3.jpg: Predicted in 20.527468 seconds.
+sheep: 99%
+Bounding Box: Left=789, Top=585, Right=1333, Bottom=1036
+sheep: 99%
+Bounding Box: Left=1064, Top=560, Right=1535, Bottom=1028
+sheep: 89%
+Bounding Box: Left=176, Top=584, Right=655, Bottom=1087
+dog: 56%
+Bounding Box: Left=1815, Top=780, Right=2140, Bottom=956
+person: 100%
+Bounding Box: Left=113, Top=87, Right=689, Bottom=1087
+Enter Image Path: 

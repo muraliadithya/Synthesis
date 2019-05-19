@@ -10,7 +10,8 @@ folder = pwd + "/concepts/" + case + "/"
 
 train_result = ""
 test_result = ""
-for filename in os.listdir(folder):
+filenames = sorted(os.listdir(folder))
+for filename in filenames:
     if ('train' in filename) and ('.jpg' in filename):
         train_result = train_result + (folder + filename) + "\n"
     elif ('test' in filename) and ('.jpg' in filename):

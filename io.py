@@ -33,6 +33,7 @@ from utilities import *
 def model_parser(model_string,model_id):
     model = model_string.split('\n')[1:-1]
     parsed_model = {}
+    #print model
     length = len(model)
     obj = 1
     triple = [[],[],{}]
@@ -47,6 +48,7 @@ def model_parser(model_string,model_id):
 
             parsed_model[model_id+"_o"+str(obj)] = (triple[0],triple[1],triple[2])
             obj = obj + 1
+            triple = [[], [], {}]
         else:
             name = model[i].split(': ')[0]
             confidence = model[i].split(': ')[1].split('%')[0]

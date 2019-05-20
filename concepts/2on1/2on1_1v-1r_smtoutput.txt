@@ -1,0 +1,23 @@
+Results for s3
+unsat
+(error "line 211 column 10: model is not available")
+Results for s2
+unknown
+(model 
+  (define-fun arg1_1 () Binding
+    bind_chair)
+  (define-fun n1 () IfNeg
+    no)
+  (define-fun q1 () Quantifier
+    all)
+  (define-fun r1 () Rels
+    toRight)
+  (define-fun arg1_2 () Binding
+    bind_cat)
+)
+Results for s1
+unsat
+(error "line 231 column 10: model is not available")
+Results for s4
+unsat
+(error "line 241 column 10: model is not available")

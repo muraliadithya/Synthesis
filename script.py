@@ -32,6 +32,7 @@ resultfile_name = folder + 'results_'+ instance +'.txt'
 
 #(problem_dict,smtdict) = input_files(sys.argv[1],sys.argv[2])
 (problem_dict,smtdict) = input_files(trainfile_name,testfile_name)
+#print problem_dict['test']
 smt_input = smt_file_gen(problem_dict,smtdict,num_vars,num_rels,arity,existential,conjuncts,labelconstraint)
 
 smt_in_file = open(smt_infile_name,'w')

@@ -8,14 +8,8 @@ Exists x1. Forall x2. Exists x3.
 [within(x3,x1)])
 ++++++++++++++
 Results for test image 1
-Forall x1. Exists x2. Exists x3. 
-(and
-[neq(x1,x2)]
-[labelOf(x2,cat)])
+Unsat: cannot be a solution
 ++++++++++++++
 Results for test image 4
-Forall x1. Forall x2. Exists x3. 
-(impl
-[Not above(cat,nullobj)]
-[sameLabel(cat,cat)])
+Unsat: cannot be a solution
 ++++++++++++++

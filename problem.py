@@ -53,7 +53,14 @@ def solve_standard(test_imgs):
 # Given num_rels = k and arity = m, abstract formula will contain the relation type variables r1, r2... rk and each rj will contain the arguments argj_1, argj_2... argj_m
 
 
-def smt_file_gen(problem_dict,smtdict,num_vars,num_rels,arity,existential,conjuncts,labelconstraint='no',solve='standard'):
+def smt_file_gen(problem_dict,smtdict,config_dict,solve_str='standard'):
+  num_vars = config_dict['num_vars']
+  num_rels = config_dict['num_rels']
+  arity = config_dict['arity']
+  existential = config_dict['existential']
+  conjuncts = config_dict['conjuncts']
+  labelconstraint = config_dict['labelconstraint']
+
   result = ""
   result = result + declare_datatype_Img(smtdict) + "\n"
   result = result + declare_datatype_Obj(smtdict) + "\n"
@@ -79,14 +86,9 @@ def smt_file_gen(problem_dict,smtdict,num_vars,num_rels,arity,existential,conjun
   result = result + define_formula_levels(num_vars) + "\n"
   result = result + "\n" + assert_formula_on_train(problem_dict['train'].keys()) + "\n"
 
-  if solve == 'standard':
+  if solve_str == 'standard':
     result = result + solve_standard(problem_dict['test'].keys())
   else:
-    result = result + solve + "(check-sat)\n" + "(get-model)"
+    result = result + solve_str + "(check-sat)\n" + "(get-model)"
 
   return result
-
-#print print_smt_file(problem_dict,smtdict,num_vars,num_rels,arity,existential,conjuncts)
-
-# smtfile = 'sat.txt'
-# read_smt_output(smtfile,num_rels,num_vars,arity)

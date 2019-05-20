@@ -38,10 +38,13 @@ testfile_name = folder + case + "_test_out.txt"
 (problem_dict,smtdict) = input_files(trainfile_name,testfile_name)
 # #print problem_dict['test']
 
-configs = configs.split('\n')[:-1]
+configs = configs.split('\n')
 
 for config in configs:
-    #(num_solutions,num_vars,num_rels,arity,existential,conjuncts,labelconstraint,counting) = readconfig(config)
+    if config == '':
+        #empty line
+        continue
+
     config = config.split("\n")[0]
     config_dict = readconfig(case,config) #Also creates the 'instance' attribute
     config_dict['folder'] = folder

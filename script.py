@@ -31,6 +31,7 @@ configfile = open(folder + "config.txt",'r')
 configs = configfile.read()
 configfile.close()
 
+os.system('mkdir -p ' + folder + 'smt')
 os.system('rm ' + folder + 'smt/*.*')
 
 trainfile_name = folder + case + "_train_out.txt"

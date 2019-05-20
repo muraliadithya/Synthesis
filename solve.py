@@ -52,7 +52,7 @@ def solve_candidate(candidate,num_candidates,config_dict,problem_dict,smtdict,sm
             countermodels = countermodels + "\n" + counterformula_assertion(smtmodel_dict,config_dict)
             result = result + "\nSolution number " + str(i) + "\n" + pretty_counterformula
 
-    print "\nDone with candidate " + str(candidate) + "of " + str(num_candidates) + "."
+    print "*Done with candidate " + str(candidate) + "of " + str(num_candidates) + ".*\n"
     return result
 
 

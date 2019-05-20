@@ -1,4 +1,4 @@
-data/Synthesis/concepts/2on1/2on1_test_1.jpg
-data/Synthesis/concepts/2on1/2on1_test_2.jpg
-data/Synthesis/concepts/2on1/2on1_test_3.jpg
-data/Synthesis/concepts/2on1/2on1_test_4.jpg
+/home/adithya/Synthesis/concepts/2on1/2on1_test_1.jpg
+/home/adithya/Synthesis/concepts/2on1/2on1_test_2.jpg
+/home/adithya/Synthesis/concepts/2on1/2on1_test_3.jpg
+/home/adithya/Synthesis/concepts/2on1/2on1_test_4.jpg

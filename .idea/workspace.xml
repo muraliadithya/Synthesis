@@ -2,14 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8291a0d2-e138-4346-99ec-25c983e5aaba" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/concepts/dogherded/dogherded_test_1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/concepts/dogherded/dogherded_test_1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/concepts/dogherded/dogherded_test_3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/concepts/dogherded/dogherded_test_3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/concepts/dogherded/dogherded_test_in.txt" beforeDir="false" afterPath="$PROJECT_DIR$/concepts/dogherded/dogherded_test_in.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/concepts/dogherded/dogherded_train_1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/concepts/dogherded/dogherded_train_1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/concepts/dogherded/dogherded_train_2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/concepts/dogherded/dogherded_train_2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/concepts/dogherded/dogherded_train_in.txt" beforeDir="false" afterPath="$PROJECT_DIR$/concepts/dogherded/dogherded_train_in.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/makeinputfiles.py" beforeDir="false" afterPath="$PROJECT_DIR$/makeinputfiles.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alternaterels.py" beforeDir="false" afterPath="$PROJECT_DIR$/alternaterels.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/concepts/2on1/2on1_test_2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/concepts/2on1/2on1_test_2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/concepts/2on1/2on1_test_in.txt" beforeDir="false" afterPath="$PROJECT_DIR$/concepts/2on1/2on1_test_in.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/concepts/2on1/2on1_test_out.txt" beforeDir="false" afterPath="$PROJECT_DIR$/concepts/2on1/2on1_test_out.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/concepts/2on1/2on1_train_in.txt" beforeDir="false" afterPath="$PROJECT_DIR$/concepts/2on1/2on1_train_in.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/concepts/2on1/2on1_train_out.txt" beforeDir="false" afterPath="$PROJECT_DIR$/concepts/2on1/2on1_train_out.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/io.py" beforeDir="false" afterPath="$PROJECT_DIR$/io.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/objs_and_imgs.py" beforeDir="false" afterPath="$PROJECT_DIR$/objs_and_imgs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/problem.py" beforeDir="false" afterPath="$PROJECT_DIR$/problem.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rels.py" beforeDir="false" afterPath="$PROJECT_DIR$/rels.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,61 +20,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/oneshot.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/alternaterels.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="15" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/script.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
-              <folding>
-                <element signature="e#0#10#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/problem.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-23">
-              <folding>
-                <element signature="e#0#23#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/makeinputfiles.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="38" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
-              <folding>
-                <element signature="e#0#10#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -89,14 +37,19 @@
       <list>
         <option value="$PROJECT_DIR$/oneshot.py" />
         <option value="$PROJECT_DIR$/makeinputfiles.py" />
+        <option value="$PROJECT_DIR$/io.py" />
+        <option value="$PROJECT_DIR$/objs_and_imgs.py" />
+        <option value="$PROJECT_DIR$/alternaterels.py" />
+        <option value="$PROJECT_DIR$/rels.py" />
+        <option value="$PROJECT_DIR$/problem.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="453" />
-    <option name="y" value="100" />
-    <option name="width" value="1393" />
-    <option name="height" value="792" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="914" />
+    <option name="y" value="33" />
+    <option name="width" value="998" />
+    <option name="height" value="649" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -148,10 +101,9 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="453" y="100" width="1393" height="792" extended-state="1" />
-    <editor active="true" />
+    <frame x="914" y="33" width="998" height="649" extended-state="1" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17368962" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -171,25 +123,6 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/script.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/problem.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-23">
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/oneshot.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -197,10 +130,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/alternaterels.py">
+    <entry file="file://$PROJECT_DIR$/script.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="15" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="15" />
+        <state relative-caret-position="30">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -210,6 +146,53 @@
           <caret line="12" column="38" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/absformula_datatypes.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/objs_and_imgs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="21" lean-forward="true" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utilities.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/io.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="92" column="18" lean-forward="true" selection-start-line="92" selection-start-column="18" selection-end-line="92" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/problem.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="404">
+          <caret line="92" selection-start-line="92" selection-end-line="92" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rels.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="49" column="29" selection-start-line="49" selection-start-column="29" selection-end-line="49" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alternaterels.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="56" column="26" lean-forward="true" selection-start-line="56" selection-start-column="26" selection-end-line="56" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>

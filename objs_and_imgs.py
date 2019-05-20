@@ -2,7 +2,9 @@
 # This is needed to declare a uniform sort of binding variables that, given a specific valuation, evaluate to objects
 def extraneous_objs(d):
   result = {"nullobj"}
-  result = result | set(d['label'].values())
+  label_lists = d['label'].values()
+  for label_list in label_lists:
+    result = result | set(label_list)
   return list(result)
 
 # Defines the datatype of images

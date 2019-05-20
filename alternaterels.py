@@ -3,7 +3,9 @@ import itertools
 
 # lt top rt bot
 def precompute_gen(d,rel):
-  if rel == 'toLeft':
+  if rel == 'sameLabel':
+    func = lambda x, y: not set(x[0]).isdisjoint(y[0])
+  elif rel == 'toLeft':
     func = lambda x, y: x[2]['right'] < y[2]['left']
   elif rel == 'toRight':
     func = lambda x, y: x[2]['left'] > y[2]['right']
@@ -38,8 +40,10 @@ def precompute_gen(d,rel):
 
 def define_fun_precompute_re(d):
   temp_neq = temp_neq_gen()
-  temp_labelOf = temp_labelOf_gen()
-  temp_sameLabel = temp_sameLabel_gen()
+  #temp_labelOf = temp_labelOf_gen()
+  temp_labelOf = temp_labelOf_gen(d)
+  #temp_sameLabel = temp_sameLabel_gen()
+  temp_sameLabel = precompute_gen(d,'sameLabel')
   temp_toLeft = precompute_gen(d,'toLeft')
   temp_toRight = precompute_gen(d,'toRight')
   temp_above = precompute_gen(d,'above')

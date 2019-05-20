@@ -58,7 +58,7 @@ def smt_file_gen(problem_dict,smtdict,num_vars,num_rels,arity,existential,conjun
   result = result + declare_datatype_Img(smtdict) + "\n"
   result = result + declare_datatype_Obj(smtdict) + "\n"
   result = result + define_fun_inImg(smtdict) + "\n"
-  result = result + define_fun_label(smtdict) + "\n"
+  #result = result + define_fun_label(smtdict) + "\n"
   result = result + declare_datatype_rels() + "\n"
   result = result + define_fun_precompute_re(problem_dict) + "\n"
   result = result + declare_datatype_quantifier() + "\n"
@@ -90,6 +90,3 @@ def smt_file_gen(problem_dict,smtdict,num_vars,num_rels,arity,existential,conjun
 
 # smtfile = 'sat.txt'
 # read_smt_output(smtfile,num_rels,num_vars,arity)
-
-    
-   

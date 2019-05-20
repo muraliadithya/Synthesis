@@ -41,10 +41,30 @@ def temp_neq_gen():
   temp_neq = "(and (= r neq) (not (= b a)))"
   return temp_neq
 
+# # Auxiliary function for universal relation evaluator generation
+# def temp_labelOf_gen():
+#   temp_labelOf = "(and (= r labelOf) (= b (label a)))"
+#   return temp_labelOf
+
 # Auxiliary function for universal relation evaluator generation
-def temp_labelOf_gen():
-  temp_labelOf = "(and (= r labelOf) (= b (label a)))"
-  return temp_labelOf
+# Support for multiple labels
+def temp_labelOf_gen(d):
+  imgdict = {}
+  imgdict.update(d['train'])
+  imgdict.update(d['test'])
+
+  result = ""
+
+  imgs = imgdict.keys()
+  for img in imgs:
+    objs = imgdict[img].keys()
+    for obj in objs:
+      labels = imgdict[img][obj][0]
+      for label in labels:
+        result = result + "(and (= r labelOf) (= a " + obj + ") (= b " + label + "))\n"
+
+  return result
+
 
 # Auxiliary function for universal relation evaluator generation
 def temp_sameLabel_gen():

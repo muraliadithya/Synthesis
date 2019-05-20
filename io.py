@@ -1,31 +1,69 @@
 #import sys
 from utilities import *
 
+# def model_parser(model_string,model_id):
+#     model = model_string.split('\n')[1:-1]
+#     names_and_confidence = model[0::2]
+#     bounding_boxes = model[1::2]
+#     parsed_model = {}
+#     for i in range(len(bounding_boxes)):
+#         name =  names_and_confidence[i].split(': ')[0]
+#         confidence = names_and_confidence[i].split(': ')[1].split('%')[0]
+#         boundaries = bounding_boxes[i].split(': ')[1].split(', ')
+#         left = boundaries[0].split('=')[1]
+#         top = boundaries[1].split('=')[1]
+#         right = boundaries[2].split('=')[1]
+#         bottom = boundaries[3].split('=')[1]
+#
+#         #to handle multiple names
+#         if len(name.split(' ')) > 1:
+#           longname = name.split(' ')
+#           #print longname
+#           name = ""
+#           for names in longname:
+#             name = name + "_" + names
+#           name = name[1:]
+#           #print name
+#
+#         parsed_model[model_id+"_o"+str(i+1)] = (name, int(confidence), {'left':int(left), 'right':int(right), 'top':int(top), 'bottom':int(bottom)})
+#     return parsed_model
+
+
+# changed model parser to handle multiple labels. Still can't handle missing bounding boxes.
 def model_parser(model_string,model_id):
     model = model_string.split('\n')[1:-1]
-    names_and_confidence = model[0::2]
-    bounding_boxes = model[1::2]
     parsed_model = {}
-    for i in range(len(bounding_boxes)):
-        name =  names_and_confidence[i].split(': ')[0]
-        confidence = names_and_confidence[i].split(': ')[1].split('%')[0]
-        boundaries = bounding_boxes[i].split(': ')[1].split(', ')
-        left = boundaries[0].split('=')[1]
-        top = boundaries[1].split('=')[1]
-        right = boundaries[2].split('=')[1]
-        bottom = boundaries[3].split('=')[1]
+    length = len(model)
+    obj = 1
+    triple = [[],[],{}]
+    for i in range(length):
+        if 'Bounding Box' in model[i]:
+            boundaries = model[i].split(':')[1].split(',')
+            left = boundaries[0].split('=')[1]
+            top = boundaries[1].split('=')[1]
+            right = boundaries[2].split('=')[1]
+            bottom = boundaries[3].split('=')[1]
+            triple[2] = {'left':int(left), 'right':int(right), 'top':int(top), 'bottom':int(bottom)}
 
-        #to handle multiple names
-        if len(name.split(' ')) > 1:
-          longname = name.split(' ')
-          #print longname
-          name = ""
-          for names in longname:
-            name = name + "_" + names
-          name = name[1:]
-          #print name
-    
-        parsed_model[model_id+"_o"+str(i+1)] = (name, int(confidence), {'left':int(left), 'right':int(right), 'top':int(top), 'bottom':int(bottom)})
+            parsed_model[model_id+"_o"+str(obj)] = (triple[0],triple[1],triple[2])
+            obj = obj + 1
+        else:
+            name = model[i].split(': ')[0]
+            confidence = model[i].split(': ')[1].split('%')[0]
+
+            # to handle multi part names
+            if len(name.split(' ')) > 1:
+                longname = name.split(' ')
+                # print longname
+                name = ""
+                for names in longname:
+                    name = name + "_" + names
+                name = name[1:]
+                # print name
+
+            triple[0].append(name)
+            triple[1].append(int(confidence))
+
     return parsed_model
 
 

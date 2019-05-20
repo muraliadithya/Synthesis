@@ -1,4 +1,5 @@
 import sys
+import os
 #import argparse
 
 from io import *
@@ -30,6 +31,7 @@ configfile = open(folder + "config.txt",'r')
 configs = configfile.read()
 configfile.close()
 
+os.system('rm ' + folder + 'smt/*.*')
 
 trainfile_name = folder + case + "_train_out.txt"
 testfile_name = folder + case + "_test_out.txt"

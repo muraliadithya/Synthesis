@@ -7,11 +7,11 @@ from utilities import *
 
 def solve(config_dict,problem_dict,smtdict,smt_path):
     num_candidates = len(problem_dict['test'].keys())
-    resultfile = config_dict['folder'] + "smt/results_" + config_dict['instance'] + ".txt"
+    resultfile_name = config_dict['folder'] + "smt/results_" + config_dict['instance'] + ".txt"
     for candidate in range(1,num_candidates+1):
         result = "Candidate " + str(candidate) + ":\n" + solve_candidate(candidate,num_candidates,config_dict,problem_dict,smtdict,smt_path)
         result = result + "\n-----------------------------\n"
-        resultfile = open(resultfile, 'a')
+        resultfile = open(resultfile_name, 'a')
         resultfile.write(result)
         resultfile.close()
     print "\nDone."
@@ -46,7 +46,7 @@ def solve_candidate(candidate,num_candidates,config_dict,problem_dict,smtdict,sm
 
         (status,smtmodel_dict,pretty_counterformula) = read_single_smt_output(smt_outfile_name,num_rels,num_vars,arity)
         if status == 'unsat':
-            result = result + "\nNo other formulae."
+            result = result + "\nUnsat:No more formulae."
             break
         else:
             countermodels = countermodels + "\n" + counterformula_assertion(smtmodel_dict,config_dict)

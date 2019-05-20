@@ -60,6 +60,7 @@ def recover_baseformula(lst,dt,arity):
 
 
 def construct_formula(model,treearg,num_vars,arity):
+  #print model
   if type(treearg) == int:
     pt = gen_default_parsetree(treearg)
   elif type(treearg) == list:
@@ -85,6 +86,7 @@ def construct_formula(model,treearg,num_vars,arity):
   formula_dict.update(baseformula_dict)
 
   result = result + "\n" + baseformula
+  #print baseformula
   return (formula_dict,result)
 
 
@@ -114,16 +116,17 @@ def construct_formula(model,treearg,num_vars,arity):
 def read_single_smt_output(smtfile, treearg, num_vars, arity):
   smt_file = open(smtfile, 'r')
   smtstr = smt_file.readline()
-  smt_file.close()
 
   if 'unsat' in smtstr:
+    smt_file.close()
     return ('unsat',{},"")
   else:
-    smtstr = smt_file.read()
+    smtstr = smt_file.read().split('\n')
     (formula_dict,pretty_formula) = construct_formula(smtstr,treearg,num_vars,arity)
     pretty_formula = pretty_formula + "\n++++++++++++++\n"
 
     result = ('sat',formula_dict,pretty_formula)
+    smt_file.close()
     return result
 
 

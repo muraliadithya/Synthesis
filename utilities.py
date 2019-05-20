@@ -86,8 +86,8 @@ def readconfig(case, config):
         config_dict = {}
         # mandatory attributes
         config_dict['case'] = case
-        config_dict['num_vars'] = attributes[0]
-        config_dict['num_rels'] = attributes[1]
+        config_dict['num_vars'] = int(attributes[0])
+        config_dict['num_rels'] = int(attributes[1])
         # default values of optional attributes
         config_dict['arity'] = 2
         config_dict['num_solutions'] = 1

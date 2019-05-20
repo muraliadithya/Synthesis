@@ -148,20 +148,22 @@
 ;Datatype of indirections to indicate what the arguments of relations in the abstract baseformula are-- i.e, a datatype of bindings 
 ;Constants/extraneous objects have bindings as well
 (declare-datatypes () ((Binding
- bind_x1
+ bind_x1 bind_x2 bind_x3
 ;bindings for extraneous objects
  bind_nullobj bind_chair bind_sofa bind_cat
 )))
 ;Defines how bindings correspond to valuations
 ;Default lookup is nullobj, but it is used since the function is defined for all bindings
-(define-fun bindlook ((x1 Obj)(bind Binding)) Obj
+(define-fun bindlook ((x1 Obj)(x2 Obj)(x3 Obj)(bind Binding)) Obj
+(ite (= bind bind_x3) x3
+(ite (= bind bind_x2) x2
 (ite (= bind bind_x1) x1
 ;Bindings for extraneous objects
 (ite (= bind bind_cat) cat
 (ite (= bind bind_sofa) sofa
 (ite (= bind bind_chair) chair
 (ite (= bind bind_nullobj) nullobj
- nullobj)))))
+ nullobj)))))))
 )
 ;Defines symbols used to indicate which boolean operators will be used, including negations, and their meanings as well
 (declare-datatypes () ((Ops opand opor opimpl)))
@@ -177,67 +179,70 @@
   arg
 ))
 (declare-const q1 Quantifier)
+(declare-const q2 Quantifier)
+(declare-const q3 Quantifier)
 
+(declare-const op1 Ops)
+(declare-const op2 Ops)
 
 (declare-const n1 IfNeg)
+(declare-const n2 IfNeg)
+(declare-const n3 IfNeg)
 
 (declare-const r1 Rels)
+(declare-const r2 Rels)
+(declare-const r3 Rels)
 
 (declare-const arg1_1 Binding)
 (declare-const arg1_2 Binding)
+(declare-const arg2_1 Binding)
+(declare-const arg2_2 Binding)
+(declare-const arg3_1 Binding)
+(declare-const arg3_2 Binding)
+
+(assert (= q1 one))
+(assert (= q2 one))
+(assert (= q3 one))
+
+(assert (= op1 opand))
+(assert (= op2 opand))
+
+(assert (=> (= r1 labelOf) (= n1 no)))
+(assert (=> (= r2 labelOf) (= n2 no)))
+(assert (=> (= r3 labelOf) (= n3 no)))
 
 ;Defines the innermost (quantifier-free) formula
-(define-fun baseformula ((x1 Obj)) Bool
-(negeval n1 (re r1 (bindlook x1 arg1_1) (bindlook x1 arg1_2)))
+(define-fun baseformula ((x1 Obj)(x2 Obj)(x3 Obj)) Bool
+(opeval op1
+(negeval n1 (re r1 (bindlook x1 x2 x3 arg1_1) (bindlook x1 x2 x3 arg1_2)))
+(opeval op2
+(negeval n2 (re r2 (bindlook x1 x2 x3 arg2_1) (bindlook x1 x2 x3 arg2_2)))
+(negeval n3 (re r3 (bindlook x1 x2 x3 arg3_1) (bindlook x1 x2 x3 arg3_2)))))
 )
-;Formula at quantifier level 1
+;Formula at quantifier level 3
+(define-fun formula_level_3 ((x1 Obj) (x2 Obj) (img Img)) Bool
+(ite (= q3 all)
+ (forall ((x3 Obj)) (=> (inImg x3 img) (baseformula x1 x2 x3)))
+ (exists ((x3 Obj)) (and (inImg x3 img) (baseformula x1 x2 x3)))
+));Formula at quantifier level 2
+(define-fun formula_level_2 ((x1 Obj) (img Img)) Bool
+(ite (= q2 all)
+ (forall ((x2 Obj)) (=> (inImg x2 img) (formula_level_3 x1 x2 img)))
+ (exists ((x2 Obj)) (and (inImg x2 img) (formula_level_3 x1 x2 img)))
+));Formula at quantifier level 1
 (define-fun formula_level_1 ((img Img)) Bool
 (ite (= q1 all)
- (forall ((x1 Obj)) (=> (inImg x1 img) (baseformula x1)))
- (exists ((x1 Obj)) (and (inImg x1 img) (baseformula x1)))
+ (forall ((x1 Obj)) (=> (inImg x1 img) (formula_level_2 x1 img)))
+ (exists ((x1 Obj)) (and (inImg x1 img) (formula_level_2 x1 img)))
 ))
 
 (assert (formula_level_1 t2))
 (assert (formula_level_1 t3))
 (assert (formula_level_1 t1))
 
-(push)
-(echo "Results for s3")
-(assert (formula_level_1 s3))
-(assert (not (formula_level_1 s2)))
-(assert (not (formula_level_1 s1)))
-(assert (not (formula_level_1 s4)))
-(check-sat)
-(get-model)
-(pop)
-
-(push)
-(echo "Results for s2")
-(assert (formula_level_1 s2))
-(assert (not (formula_level_1 s3)))
-(assert (not (formula_level_1 s1)))
-(assert (not (formula_level_1 s4)))
-(check-sat)
-(get-model)
-(pop)
-
-(push)
-(echo "Results for s1")
-(assert (formula_level_1 s1))
-(assert (not (formula_level_1 s3)))
-(assert (not (formula_level_1 s2)))
-(assert (not (formula_level_1 s4)))
-(check-sat)
-(get-model)
-(pop)
-
-(push)
-(echo "Results for s4")
 (assert (formula_level_1 s4))
-(assert (not (formula_level_1 s3)))
-(assert (not (formula_level_1 s2)))
 (assert (not (formula_level_1 s1)))
+(assert (not (formula_level_1 s2)))
+(assert (not (formula_level_1 s3)))
 (check-sat)
 (get-model)
-(pop)
-

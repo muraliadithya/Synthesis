@@ -2,8 +2,186 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8291a0d2-e138-4346-99ec-25c983e5aaba" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/concepts/2on1/2on1_test_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concepts/2on1/2on1_test_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concepts/2on1/2on1_test_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concepts/2on1/2on1_test_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concepts/2on1/2on1_test_in.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concepts/2on1/2on1_test_out.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concepts/2on1/2on1_train_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concepts/2on1/2on1_train_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concepts/2on1/2on1_train_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concepts/2on1/2on1_train_in.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concepts/2on1/2on1_train_out.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concepts/2on1/alternate/2on1_test_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concepts/2on1/alternate/2on1alternate.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concepts/2on1/config.txt" beforeDir="false" afterPath="$PROJECT_DIR$/concepts/2on1/config.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/concepts/2on1/smt/2on1_3v-3r_exist_and_noneg_smtinput.smt2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concepts/2on1/smt/2on1_3v-3r_exist_and_noneg_smtoutput.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concepts/2on1/smt/results_2on1_3v-3r_exist_and_noneg.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concepts/done_allcatsonsofas/allcatsonsofas_test_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concepts/done_allcatsonsofas/allcatsonsofas_test_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concepts/done_allcatsonsofas/allcatsonsofas_test_in.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concepts/done_allcatsonsofas/allcatsonsofas_test_out.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concepts/done_allcatsonsofas/allcatsonsofas_train_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concepts/done_allcatsonsofas/allcatsonsofas_train_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concepts/done_allcatsonsofas/allcatsonsofas_train_in.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concepts/done_allcatsonsofas/allcatsonsofas_train_out.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concepts/done_catontv/catontv_test_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concepts/done_catontv/catontv_test_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concepts/done_catontv/catontv_test_in.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concepts/done_catontv/catontv_test_out.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concepts/done_catontv/catontv_train_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concepts/done_catontv/catontv_train_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concepts/done_catontv/catontv_train_in.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concepts/done_catontv/catontv_train_out.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concepts/done_formal/alternate/formal_train_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concepts/done_formal/alternate/formal_train_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concepts/done_formal/formal_test_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concepts/done_formal/formal_test_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concepts/done_formal/formal_test_in.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concepts/done_formal/formal_test_out.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concepts/done_formal/formal_train_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concepts/done_formal/formal_train_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concepts/done_formal/formal_train_in.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concepts/done_formal/formal_train_out.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concepts/done_middle/middle_test_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concepts/done_middle/middle_test_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concepts/done_middle/middle_test_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concepts/done_middle/middle_test_in.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concepts/done_middle/middle_test_out.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concepts/done_middle/middle_train_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concepts/done_middle/middle_train_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concepts/done_middle/middle_train_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concepts/done_middle/middle_train_in.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concepts/done_middle/middle_train_out.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concepts/done_samelevel/samelevel_test_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concepts/done_samelevel/samelevel_test_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concepts/done_samelevel/samelevel_test_in.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concepts/done_samelevel/samelevel_test_out.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concepts/done_samelevel/samelevel_train_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concepts/done_samelevel/samelevel_train_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concepts/done_samelevel/samelevel_train_in.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concepts/done_samelevel/samelevel_train_out.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concepts/done_stable_alldogsonsofas/stable_alldogsonsofas_test_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concepts/done_stable_alldogsonsofas/stable_alldogsonsofas_test_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concepts/done_stable_alldogsonsofas/stable_alldogsonsofas_test_in.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concepts/done_stable_alldogsonsofas/stable_alldogsonsofas_test_out.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concepts/done_stable_alldogsonsofas/stable_alldogsonsofas_train_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concepts/done_stable_alldogsonsofas/stable_alldogsonsofas_train_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concepts/done_stable_alldogsonsofas/stable_alldogsonsofas_train_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concepts/done_stable_alldogsonsofas/stable_alldogsonsofas_train_in.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concepts/done_stable_alldogsonsofas/stable_alldogsonsofas_train_out.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concepts/done_strongmiddle/strongmiddle_test_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concepts/done_strongmiddle/strongmiddle_test_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concepts/done_strongmiddle/strongmiddle_test_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concepts/done_strongmiddle/strongmiddle_test_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concepts/done_strongmiddle/strongmiddle_test_in.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concepts/done_strongmiddle/strongmiddle_test_out.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concepts/done_strongmiddle/strongmiddle_train_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concepts/done_strongmiddle/strongmiddle_train_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concepts/done_strongmiddle/strongmiddle_train_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concepts/done_strongmiddle/strongmiddle_train_in.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concepts/done_strongmiddle/strongmiddle_train_out.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concepts/done_tvon/tvon_test_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concepts/done_tvon/tvon_test_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concepts/done_tvon/tvon_test_in.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concepts/done_tvon/tvon_test_out.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concepts/done_tvon/tvon_train_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concepts/done_tvon/tvon_train_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concepts/done_tvon/tvon_train_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concepts/done_tvon/tvon_train_in.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concepts/done_tvon/tvon_train_out.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concepts/emptybus/emptybus_2v-2r_smtinput.smt2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concepts/emptybus/emptybus_2v-2r_smtoutput.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concepts/emptybus/emptybus_test_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concepts/emptybus/emptybus_test_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concepts/emptybus/emptybus_test_in.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concepts/emptybus/emptybus_test_out.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concepts/emptybus/emptybus_train_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concepts/emptybus/emptybus_train_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concepts/emptybus/emptybus_train_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concepts/emptybus/emptybus_train_in.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concepts/emptybus/emptybus_train_out.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concepts/emptybus/results_emptybus_2v-2r.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concepts/equal_catdog/catdog_test_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concepts/equal_catdog/catdog_test_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concepts/equal_catdog/catdog_test_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concepts/equal_catdog/catdog_train_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concepts/equal_catdog/catdog_train_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concepts/equal_catdog/catdog_train_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concepts/equal_catdog/catdog_train_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concepts/equal_catdog/equal_catdog_test_in.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concepts/equal_catdog/equal_catdog_test_out.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concepts/equal_catdog/equal_catdog_train_in.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concepts/equal_catdog/equal_catdog_train_out.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concepts/forktort/forktort_test_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concepts/forktort/forktort_test_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concepts/forktort/forktort_train_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concepts/forktort/forktort_train_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concepts/forktort/forktort_train_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concepts/kitchen/kitchen_test_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concepts/kitchen/kitchen_test_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concepts/kitchen/kitchen_test_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concepts/kitchen/kitchen_test_in.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concepts/kitchen/kitchen_test_out.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concepts/kitchen/kitchen_train_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concepts/kitchen/kitchen_train_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concepts/kitchen/kitchen_train_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concepts/kitchen/kitchen_train_in.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concepts/kitchen/kitchen_train_out.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concepts/pair/pair_test_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concepts/pair/pair_test_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concepts/pair/pair_test_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concepts/pair/pair_test_in.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concepts/pair/pair_test_out.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concepts/pair/pair_train_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concepts/pair/pair_train_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concepts/pair/pair_train_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concepts/pair/pair_train_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concepts/pair/pair_train_in.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concepts/pair/pair_train_out.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concepts/personball/personball_2v-2r_exist_and_smtinput.smt2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concepts/personball/personball_2v-2r_exist_and_smtoutput.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concepts/personball/personball_test_in.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concepts/personball/personball_test_out.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concepts/personball/personball_train_in.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concepts/personball/personball_train_out.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concepts/personball/results_personball_2v-2r_exist_and.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concepts/pplontv/pplontv_test_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concepts/pplontv/pplontv_test_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concepts/pplontv/pplontv_test_in.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concepts/pplontv/pplontv_test_out.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concepts/pplontv/pplontv_train_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concepts/pplontv/pplontv_train_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concepts/pplontv/pplontv_train_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concepts/pplontv/pplontv_train_in.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concepts/pplontv/pplontv_train_out.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concepts/presence/presence_test_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concepts/presence/presence_test_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concepts/presence/presence_test_in.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concepts/presence/presence_test_out.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concepts/presence/presence_train_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concepts/presence/presence_train_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concepts/presence/presence_train_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concepts/presence/presence_train_in.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concepts/presence/presence_train_out.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concepts/tvoff/tvoff_test_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concepts/tvoff/tvoff_test_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concepts/tvoff/tvoff_test_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concepts/tvoff/tvoff_test_in.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concepts/tvoff/tvoff_test_out.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concepts/tvoff/tvoff_train_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concepts/tvoff/tvoff_train_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concepts/tvoff/tvoff_train_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concepts/tvoff/tvoff_train_in.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concepts/tvoff/tvoff_train_out.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/makeinputfiles.py" beforeDir="false" afterPath="$PROJECT_DIR$/makeinputfiles.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/runyolo.py" beforeDir="false" afterPath="$PROJECT_DIR$/runyolo.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/script.py" beforeDir="false" afterPath="$PROJECT_DIR$/script.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/solve.py" beforeDir="false" afterPath="$PROJECT_DIR$/solve.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utilities.py" beforeDir="false" afterPath="$PROJECT_DIR$/utilities.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,8 +194,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/script.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+            <state relative-caret-position="403">
+              <caret line="61" column="16" selection-start-line="61" selection-start-column="16" selection-end-line="61" selection-end-column="16" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -26,19 +204,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/utilities.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="80" column="29" selection-start-line="80" selection-start-column="29" selection-end-line="80" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/solve.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="39" column="27" lean-forward="true" selection-start-line="39" selection-start-column="27" selection-end-line="39" selection-end-column="27" />
+            <state>
+              <caret line="15" column="41" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -47,12 +216,45 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/smtoutput.py">
+        <entry file="file://$PROJECT_DIR$/runyolo.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="870">
-              <caret line="58" column="2" selection-start-line="58" selection-start-column="2" selection-end-line="58" selection-end-column="2" />
+            <state relative-caret-position="388">
+              <caret line="46" column="16" selection-start-line="46" selection-start-column="16" selection-end-line="46" selection-end-column="16" />
               <folding>
-                <element signature="e#0#23#0" expanded="true" />
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/genvariants.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="314">
+              <caret line="30" column="35" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/updatevariantconfig.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="10" selection-start-column="10" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/makeinputfiles.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -67,6 +269,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>folder</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -74,23 +281,26 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/oneshot.py" />
-        <option value="$PROJECT_DIR$/makeinputfiles.py" />
         <option value="$PROJECT_DIR$/objs_and_imgs.py" />
         <option value="$PROJECT_DIR$/alternaterels.py" />
         <option value="$PROJECT_DIR$/rels.py" />
         <option value="$PROJECT_DIR$/io.py" />
         <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/problem.py" />
-        <option value="$PROJECT_DIR$/utilities.py" />
         <option value="$PROJECT_DIR$/smtoutput.py" />
+        <option value="$PROJECT_DIR$/updatevariantconfig.py" />
+        <option value="$PROJECT_DIR$/makeinputfiles.py" />
         <option value="$PROJECT_DIR$/solve.py" />
+        <option value="$PROJECT_DIR$/utilities.py" />
+        <option value="$PROJECT_DIR$/runyolo.py" />
         <option value="$PROJECT_DIR$/script.py" />
+        <option value="$PROJECT_DIR$/genvariants.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="890" />
-    <option name="y" value="200" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="874" />
+    <option name="y" value="156" />
     <option name="width" value="998" />
     <option name="height" value="649" />
   </component>
@@ -144,7 +354,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="890" y="200" width="998" height="649" extended-state="0" />
+    <frame x="874" y="156" width="998" height="649" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17368962" />
@@ -171,16 +381,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/makeinputfiles.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="38" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -225,31 +425,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/problem.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-166">
-          <caret line="57" column="31" selection-start-line="57" selection-start-column="31" selection-end-line="57" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/absformula_datatypes.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-855" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/utilities.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="80" column="29" selection-start-line="80" selection-start-column="29" selection-end-line="80" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/smtoutput.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="870">
+        <state relative-caret-position="109">
           <caret line="58" column="2" selection-start-line="58" selection-start-column="2" selection-end-line="58" selection-end-column="2" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
@@ -257,10 +440,64 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/makeinputfiles.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/updatevariantconfig.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="10" selection-start-column="10" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/problem.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="57" column="31" selection-start-line="57" selection-start-column="31" selection-end-line="57" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/runyolo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="388">
+          <caret line="46" column="16" selection-start-line="46" selection-start-column="16" selection-end-line="46" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utilities.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="95" column="47" selection-start-line="95" selection-start-column="47" selection-end-line="95" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/genvariants.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="30" column="35" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/solve.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="39" column="27" lean-forward="true" selection-start-line="39" selection-start-column="27" selection-end-line="39" selection-end-column="27" />
+        <state>
+          <caret line="15" column="41" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
@@ -269,8 +506,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/script.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+        <state relative-caret-position="403">
+          <caret line="61" column="16" selection-start-line="61" selection-start-column="16" selection-end-line="61" selection-end-column="16" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>

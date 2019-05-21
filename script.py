@@ -1,5 +1,6 @@
 import sys
 import os
+import time
 #import argparse
 
 from io import *
@@ -21,12 +22,15 @@ from utilities import *
 # args = parser.parse_args()
 # print args
 
-smt_path = '../z3/bin/'
-
+smt_path = '../../z3/bin/'
 
 
 case = sys.argv[1]
-folder = "./concepts/" + case + "/"
+
+start = time.time()
+
+
+folder = "./" + case + "/"
 configfile = open(folder + "config.txt",'r')
 configs = configfile.read()
 configfile.close()
@@ -54,6 +58,11 @@ for config in configs:
     #solve(num_solutions,problem_dict,smtdict,num_vars,num_rels,arity,existential,conjuncts,labelconstraint,counting,smt_path)
     solve(config_dict,problem_dict,smtdict,smt_path)
 
+end = time.time()
+timestr = "The entire config file took " + str(end-start) + " seconds."
+timefile = open(folder + 'configtime.txt','w')
+timefile.write(timestr)
+timefile.close()
 
 # # print sys.argv
 # num_vars = int(sys.argv[2])

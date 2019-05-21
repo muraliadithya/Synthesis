@@ -93,7 +93,7 @@ def readconfig(case, config):
         config_dict['num_solutions'] = 1
         config_dict['existential'] = 'no'
         config_dict['conjuncts'] = 'no'
-        config_dict['labelconstraint'] = 'no'
+        config_dict['labelconstraint'] = 'noneg'
         config_dict['counting'] = 'no'
 
         for i in range(2, length):

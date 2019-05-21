@@ -1,6 +1,9 @@
 import sys
 import os
+import time
 
+
+start =  time.time()
 
 case = sys.argv[1]
 
@@ -8,7 +11,7 @@ case = sys.argv[1]
 #     run_yolo_in_silence = sys.argv[2]
 
 pwd = os.getcwd()
-folder = pwd + "/concepts/" + case + "/"
+folder = pwd + "/" + case + "/"
 train_file_in = folder + case + "_train_in.txt"
 train_file_out = folder + case + "_train_out.txt"
 test_file_in = folder + case + "_test_in.txt"
@@ -35,3 +38,11 @@ print "Running YOLO on testing files..."
 os.system(darknet_testfile_command)
 
 print "Done."
+
+end = time.time()
+
+num_seconds = end - start
+timefile = open(folder + 'yolotime.txt','w')
+timestr = "YOLO took " + str(num_seconds) + " seconds."
+timefile.write(timestr)
+timefile.close()

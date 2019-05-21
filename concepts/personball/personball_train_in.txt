@@ -1,3 +1,0 @@
-/home/adithya/Synthesis/concepts/personball/personball_train_3.jpg
-/home/adithya/Synthesis/concepts/personball/personball_train_2.jpg
-/home/adithya/Synthesis/concepts/personball/personball_train_1.jpg

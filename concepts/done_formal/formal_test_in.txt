@@ -1,2 +1,0 @@
-data/Synthesis/concepts/formal/formal_test_1.jpg
-data/Synthesis/concepts/formal/formal_test_2.jpg

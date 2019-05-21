@@ -1,3 +1,0 @@
-/home/adithya/Synthesis/concepts/2on1/2on1_train_1.jpg
-/home/adithya/Synthesis/concepts/2on1/2on1_train_2.jpg
-/home/adithya/Synthesis/concepts/2on1/2on1_train_3.jpg

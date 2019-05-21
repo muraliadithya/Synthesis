@@ -1,11 +1,14 @@
 import os
+import time
 
 from problem import *
 from smtoutput import *
 from utilities import *
 
 
+
 def solve(config_dict,problem_dict,smtdict,smt_path):
+    start = time.time()
     num_candidates = len(problem_dict['test'].keys())
     resultfile_name = config_dict['folder'] + "smt/results_" + config_dict['instance'] + ".txt"
     for candidate in range(1,num_candidates+1):
@@ -14,6 +17,12 @@ def solve(config_dict,problem_dict,smtdict,smt_path):
         resultfile = open(resultfile_name, 'a')
         resultfile.write(result)
         resultfile.close()
+
+    end = time.time()
+    timestr = "\n!!!Solved in " + str(end-start) + " seconds."
+    resultfile = open(resultfile_name, 'a')
+    resultfile.write(timestr)
+    resultfile.close()
     print "\nDone."
 
 

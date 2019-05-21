@@ -5,7 +5,7 @@ import os
 
 case = sys.argv[1]
 pwd = os.getcwd()
-folder = pwd + "/concepts/" + case + "/"
+folder = pwd + "/" + case + "/"
 
 
 train_result = ""

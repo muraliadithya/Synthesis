@@ -1,2 +1,0 @@
-unsat
-(error "line 248 column 10: model is not available")

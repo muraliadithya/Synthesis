@@ -21,7 +21,7 @@ suppress = ""
 # if run_yolo_in_silence == 'silent':
 #     suppress = " &"
 
-yolo_path = "/home/adithya/darknet/"
+yolo_path = "./darknet/"
 os.chdir(yolo_path)
 
 darknet_command = "./darknet detect cfg/yolov3.cfg yolov3.weights "

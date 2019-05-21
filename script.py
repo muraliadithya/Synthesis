@@ -22,7 +22,7 @@ from utilities import *
 # args = parser.parse_args()
 # print args
 
-smt_path = '../../z3/bin/'
+smt_path = './z3/bin/'
 
 
 case = sys.argv[1]

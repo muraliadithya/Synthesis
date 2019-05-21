@@ -8,7 +8,7 @@ vfolder = "./variants/"
 variantfile = open(casefolder + 'variants.txt','r')
 variants = variantfile.read()
 variantfile.close()
-variants = variants.split("\n")
+variants = variants.split("\n")[:20]
 
 for variant in variants:
     if variant == "":

@@ -1,0 +1,8 @@
+Enter Image Path: /home/adithya/Synthesis/concepts/2on1/test_a.jpg: Predicted in 21.073942 seconds.
+sofa: 100%
+Bounding Box: Left=0, Top=107, Right=3717, Bottom=2091
+cat: 100%
+Bounding Box: Left=1946, Top=485, Right=3002, Bottom=1354
+cat: 100%
+Bounding Box: Left=555, Top=381, Right=1701, Bottom=1395
+Enter Image Path: 

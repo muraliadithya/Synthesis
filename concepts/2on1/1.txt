@@ -1,0 +1,11 @@
+Enter Image Path: /home/adithya/Synthesis/concepts/2on1/train_1.jpg: Predicted in 20.984004 seconds.
+chair: 86%
+sofa: 56%
+Bounding Box: Left=975, Top=209, Right=1682, Bottom=577
+chair: 87%
+Bounding Box: Left=123, Top=200, Right=801, Bottom=581
+cat: 98%
+Bounding Box: Left=255, Top=268, Right=737, Bottom=519
+cat: 98%
+Bounding Box: Left=1134, Top=269, Right=1594, Bottom=521
+Enter Image Path: 

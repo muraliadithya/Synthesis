@@ -1,4 +1,4 @@
-trlist = 'abcd'
+trlist = 'abcde'
 result = ""
 
 for tr1 in trlist:
